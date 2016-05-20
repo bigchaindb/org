@@ -1,3 +1,5 @@
+**WARNING: We're editing our GitHub labels at the moment so the links here will appear broken for a short time.**
+
 # BigchainDB Roadmap
 
 This is a high-level roadmap for BigchainDB and allied projects. We use [a waffle.io board](https://waffle.io/bigchaindb/org/) to get a high-level view of all relevant repositories on GitHub (currently bigchaindb/bigchaindb, bigchaindb/org, bigchaindb/cryptoconditions, and bigchaindb/bigchaindb-examples). There are five columns on the waffle.io board; here's what they mean:
