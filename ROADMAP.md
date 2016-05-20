@@ -1,25 +1,29 @@
-**WARNING: We're editing our GitHub labels at the moment so the links here will appear broken for a short time.**
-
 # BigchainDB Roadmap
 
-This is a high-level roadmap for BigchainDB and allied projects. We use [a waffle.io board](https://waffle.io/bigchaindb/org/) to get a high-level view of all relevant repositories on GitHub (currently bigchaindb/bigchaindb, bigchaindb/org, bigchaindb/cryptoconditions, and bigchaindb/bigchaindb-examples). There are five columns on the waffle.io board; here's what they mean:
+This is a high-level roadmap for BigchainDB and allied projects. We use [a waffle.io board](https://waffle.io/bigchaindb/org/) to get a high-level view of all relevant repositories on GitHub (currently bigchaindb/bigchaindb, bigchaindb/org, bigchaindb/cryptoconditions, and bigchaindb/bigchaindb-examples). There are six columns on the waffle.io board; here's what they mean:
 
-* **Backlog**: Open issues and new pull requests opened by non-collaborators
-* **Project in future**: PRs & issues with the "2) Project in future" label
-* **Project in 1 mo**: PRs & issues with the "1) Project in 1 mo" label
-* **In Progress**: PRs & issues with the "0) Project in progress" label, issues referenced by a branch name, and new pull requests opened by collaborators
+* **Open Issues**: Open issues not in any other column (because a "when: ___" label hasn't been assigned yet)
+* **when: In the future**: Issues and PRs with the "when: In the future" label
+* **when: In <1 mo**: Issues and PRs with the "when: In <1 mo" label
+* **New PRs + R-Issues (ref'd by new branches)**: New PRs + issues where a new branch referencing that issue was created
+* **when: In progress**: Issues and PRs with the "when: In progress" label
 * **Done**: Issues closed in the last week
 
 You can filter that board by label, who is assigned, milestone, and source repo. Here are some filter shortcuts for specific labels:
 
-* [SEC](http://tinyurl.com/jxlvea4) (security, core)
-* [D&P](http://tinyurl.com/j3ag2d4) (deployment, performance)
-* [TXS](http://tinyurl.com/hm4ea7p) (assets, data)
-* [UX](http://tinyurl.com/zptzep2) (docs, drivers, API)
-* [IPDB](http://tinyurl.com/ha6lp8c)
-* [IP PLAT](http://tinyurl.com/hnd26as) (ascribe.io, WOTN)
+| **Label** | **Meaning** |
+|-----------|-------------|
+| [Project-Issue](https://waffle.io/bigchaindb/org?label=Project-Issue) | Projects only |
+| [topic: SEC core consensus](https://waffle.io/bigchaindb/org?label=topic:%20SEC%20core%20consensus) | Security, core, consensus |
+| [topic: D&P deplymt perf](https://waffle.io/bigchaindb/org?label=topic:%20D%26P%20deplymt%20perf) | Deployment, performance |
+| [topic: TXS assets data](https://waffle.io/bigchaindb/org?label=topic:%20TXS%20assets%20data) | Transactions, assets, data |
+| [topic: UX docs cmd api driver](https://waffle.io/bigchaindb/org?label=topic:%20UX%20docs%20cmd%20api%20driver) | User experience, documentation, drivers, API |
+| [topic: IPDB](https://waffle.io/bigchaindb/org?label=topic:%20IPDB) | IPDB |
+| [topic: IP PLAT a.io wotn](https://waffle.io/bigchaindb/org?label=topic:%20IP%20PLAT%20a.io%20wotn) | IP platform, ascribe.io, whereonthe.net |
 
-At the time of writing, you can't filter to get all PRs & issues with the "2) Project in future" label because that label is used to define a column. It's [a known waffle.io bug](https://github.com/waffleio/waffle.io/issues/2327). It's not a big problem, because if you want to see all the PRs & issues with that label, you can just look in the **Project in future** column. The same is true of other columns defined by labels.
+You can combine filters in the waffle.io interface; just click the funnel icon in the top right corner of the waffle.io board.
+
+At the time of writing, you can't filter to get all PRs & issues with the "when: In the future" label because that label is used to define a column. It's [a known waffle.io bug](https://github.com/waffleio/waffle.io/issues/2327). It's not a big problem, because if you want to see all the PRs & issues with that label, you can just look in the **when: In the future** column. The same is true of other columns defined by labels.
 
 ## Some Repository-Specific GitHub Links
 
@@ -32,6 +36,6 @@ At the time of writing, you can't filter to get all PRs & issues with the "2) Pr
 
 ## Physical Planning Board
 
-Below is a photo the physical planning board in the ascribe office. We aim to update it weekly.
+Below is a photo the physical planning board in the ascribe office. It's similar to the waffle.io board showing projects only ([link](https://waffle.io/bigchaindb/org?label=Project-Issue)). We aim to update it weekly.
 
 ![Photo of our planning board](roadmap.jpg)
