@@ -27,12 +27,12 @@ At the time of writing, you can't filter to get all PRs & issues with the "when:
 
 ## Some Repository-Specific GitHub Links
 
-| **Repository** | **Open issues** | **Open PRs** | **Milestones** |  
-|----------------|-----------------|--------------|----------------|
-| bigchaindb/bigchaindb | [Open issues](https://github.com/bigchaindb/bigchaindb/issues) | [Open PRs](https://github.com/bigchaindb/bigchaindb/pulls) | [Milestones](https://github.com/bigchaindb/bigchaindb/milestones) |
-| bigchaindb/org | [Open issues](https://github.com/bigchaindb/org/issues) | [Open PRs](https://github.com/bigchaindb/org/pulls) | NA |
-| bigchaindb/cryptoconditions | [Open issues](https://github.com/bigchaindb/cryptoconditions/issues) | [Open PRs](https://github.com/bigchaindb/cryptoconditions/pulls) | NA |
-| bigchaindb/bigchaindb-examples | [Open issues](https://github.com/bigchaindb/bigchaindb-examples/issues) | [Open PRs](https://github.com/bigchaindb/bigchaindb-examples/pulls) | NA |
+| **Repository** | **Open issues** | **Open PRs** |
+|----------------|-----------------|--------------|
+| bigchaindb/bigchaindb | [Open issues](https://github.com/bigchaindb/bigchaindb/issues) | [Open PRs](https://github.com/bigchaindb/bigchaindb/pulls) |
+| bigchaindb/org | [Open issues](https://github.com/bigchaindb/org/issues) | [Open PRs](https://github.com/bigchaindb/org/pulls) |
+| bigchaindb/cryptoconditions | [Open issues](https://github.com/bigchaindb/cryptoconditions/issues) | [Open PRs](https://github.com/bigchaindb/cryptoconditions/pulls) |
+| bigchaindb/bigchaindb-examples | [Open issues](https://github.com/bigchaindb/bigchaindb-examples/issues) | [Open PRs](https://github.com/bigchaindb/bigchaindb-examples/pulls) |
 
 ## Physical Planning Board
 
