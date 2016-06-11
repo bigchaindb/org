@@ -1,6 +1,6 @@
 # BigchainDB Roadmap
 
-This is a high-level roadmap for BigchainDB and allied projects. We use [a waffle.io board](https://waffle.io/bigchaindb/org/) to get a high-level view of all relevant repositories on GitHub (currently bigchaindb/bigchaindb, bigchaindb/org, bigchaindb/cryptoconditions, and bigchaindb/bigchaindb-examples). There are six columns on the waffle.io board; here's what they mean:
+This is a high-level roadmap for BigchainDB and allied projects. We use [a waffle.io board](https://waffle.io/bigchaindb/org/) to get a high-level view of all relevant repositories on GitHub (i.e. [all GitHub repos in the organization named `bigchaindb`](https://github.com/bigchaindb) [on GitHub]). There are six columns on the waffle.io board; here's what they mean:
 
 * **Open Issues**: Open issues not in any other column (because a "when: ___" label hasn't been assigned yet)
 * **when: In the future**: Issues and PRs with the "when: In the future" label
