@@ -1,12 +1,11 @@
 # Decentralized Systems Engineer
 BigchainDB is unlocking the promise of blockchains by giving them scale, using distributed database technology. We serve the open internet and enterprises alike, from supply chain to energy to financial ecosystems. 
 
-Would you like to build stuff that matters? Then: do you live and breathe code, and are you ready for a steep learning curve? Join us.
+Do you want to build stuff that matters? Then: do you live and breathe code, and are you ready for a steep learning curve? Join us.
 
 ## Responsibilities
 * Design, implement, deploy, benchmark, and maintain decentralized databases & software systems
 * Learn and do what it takes to win
-
 
 ## Minimum Qualifications
 * BS in Software Engineering or CS, related discipline, or equivalent practical experience
