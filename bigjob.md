@@ -1,5 +1,5 @@
 # Decentralized Systems Engineer
-BigchainDB is unlocking the promise of blockchains by giving it scale, using distributed database technology. We serve the open internet and enterprises alike, from supply chain to energy to financial ecosystems. 
+BigchainDB is unlocking the promise of blockchains by giving them scale, using distributed database technology. We serve the open internet and enterprises alike, from supply chain to energy to financial ecosystems. 
 
 Would you like to build stuff that matters? Then: do you live and breathe code, and are you ready for a steep learning curve? Join us.
 
