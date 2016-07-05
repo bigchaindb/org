@@ -27,5 +27,5 @@ We have a brilliant, tight-knit international team based in Berlin. We’re alwa
 
 Are you up for working with an awesome team, learning a ton, and shipping code that matters? 
 
-Please email <bigjob@bigchaindb.com>, with a cover letter, resume, a GitHub account link (or code samples), and three references.
+Please email <engjob@bigchaindb.com>, with a cover letter, resume, a GitHub account link (or code samples), and three references.
 
