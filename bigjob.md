@@ -1,1 +1,1 @@
-See https://github.com/bigchaindb/org/engjob.md
+See https://github.com/bigchaindb/org/blob/master/engjob.md
