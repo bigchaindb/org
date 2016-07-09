@@ -29,6 +29,6 @@ We're a tight-knit international team based in Berlin. We’re always building a
 
 We are an equal opportunity employer and value diversity at our company. We strongly encourage applications from women, minorities, people with disabilities, or others who are traditionally underrepresented in tech. If you can make a contribution to our team, we want you to be a part of it.
 
-Are you up for working with an awesome team, learning a ton, and shipping code that matters? Please email <engjob@bigchaindb.com>, with a cover letter, resume, a GitHub account link (or code samples), and three references.
+Are you up for working with an awesome team, learning a ton, and shipping code that matters? Please email <engjob@bigchaindb.com>, with a cover letter, resume, and a GitHub account link (or code samples).
 
 
