@@ -27,7 +27,7 @@ You are someone that deeply cares about the future of the internet, of society. 
 
 We're a tight-knit international team based in Berlin. We’re always building and always shipping, but with an appreciation for the theoretical. We work closely with Ethereum, IPFS, Interledger, and other leaders in the blockchain space. 
 
-We are an equal opportunity employer and value diversity at our company. We strongly encourage applications from women, minorities, people with disabilities, or others who are traditionally underrepresented in tech. If you can make a contribution to our team, we want you to be a part of it.
+We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
 
 Are you up for working with an awesome team, learning a ton, and shipping code that matters? Please email <engjob@bigchaindb.com>, with a cover letter, resume, and a GitHub account link (or code samples).
 
