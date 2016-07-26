@@ -1,6 +1,6 @@
 # BigchainDB Roadmap
 
-[**This board**](https://waffle.io/bigchaindb/org/) is a high-level roadmap for BigchainDB and related projects. It shows relevant repositories on GitHub (i.e. [all GitHub repos in the organization named `bigchaindb`](https://github.com/bigchaindb) [on GitHub]). 
+[**This board**](https://waffle.io/bigchaindb/org/) is a high-level roadmap for BigchainDB and related projects. It shows all GitHub repos in the organization [named bigchaindb](https://github.com/bigchaindb). 
 
 Legend for board's columns:
 * **Open Issues**: Open issues not in any other column (because a "when: ___" label hasn't been assigned yet)
@@ -10,7 +10,9 @@ Legend for board's columns:
 * **when: In progress**: Issues and PRs with the "when: In progress" label
 * **Done**: Issues closed in the last week
 
-You can filter that board by label, who is assigned, milestone, and source repo. Shortcuts for specific labels:
+You can filter the board by label, who is assigned, milestone, and source repo. 
+
+Shortcuts for specific labels:
 
 | **Label** | **Meaning** |
 |-----------|-------------|
