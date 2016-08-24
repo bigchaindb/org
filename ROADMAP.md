@@ -42,4 +42,4 @@ At the time of writing, you can't filter to get all PRs & issues with the "when:
 
 Below is a photo the physical planning board in the ascribe office. It's similar to [the waffle.io board view of project-issues](https://waffle.io/bigchaindb/org?label=Project-Issue). We aim to update it regularly.
 
-![Photo of our planning board](roadmap-2016-07-26.jpg)
+![Photo of our planning board](Roadmap-24-Aug-2016.png)
