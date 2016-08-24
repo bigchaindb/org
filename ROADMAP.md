@@ -4,8 +4,9 @@
 
 Legend for board's columns:
 * **Open Issues**: Open issues not in any other column (because a "when: ___" label hasn't been assigned yet)
-* **when: In the future**: Issues and PRs with the "when: In the future" label
-* **when: In <1 mo**: Issues and PRs with the "when: In <1 mo" label
+* **when: Later**: Issues and PRs with the "when: Later" label
+* **when: Enterprise 1.0**: Issues and PRs with the "when: Enterprise 1.0" label
+* **when: Community 1.0**: Issues and PRs with the "when: Community 1.0" label
 * **New PRs + R-Issues (ref'd by new branches)**: New PRs + issues where a new branch referencing that issue was created
 * **when: In progress**: Issues and PRs with the "when: In progress" label
 * **Done**: Issues closed in the last week
