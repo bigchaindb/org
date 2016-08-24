@@ -16,7 +16,7 @@ Shortcuts for specific labels:
 
 | **Label** | **Meaning** |
 |-----------|-------------|
-| [Project-Issue](https://waffle.io/bigchaindb/org?label=Project-Issue) | Projects only |
+| [project](https://waffle.io/bigchaindb/org?label=project) | Projects only |
 | [topic: SEC core consensus](https://waffle.io/bigchaindb/org?label=topic:%20SEC%20core%20consensus) | Security, core, consensus |
 | [topic: D&P deplymt perf](https://waffle.io/bigchaindb/org?label=topic:%20D%26P%20deplymt%20perf) | Deployment, performance |
 | [topic: TXS assets data](https://waffle.io/bigchaindb/org?label=topic:%20TXS%20assets%20data) | Transactions, assets, data |
