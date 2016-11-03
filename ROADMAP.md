@@ -1,34 +1,5 @@
 # BigchainDB Roadmap
 
-[**This board (external link)**](https://waffle.io/bigchaindb/org/) is a high-level roadmap for BigchainDB and related projects. It shows all GitHub repos in the organization [named bigchaindb](https://github.com/bigchaindb). 
-
-Legend for board's columns:
-* **Open Issues**: Open issues not in any other column (because a "when: ___" label hasn't been assigned yet)
-* **when: Later**: Issues and PRs with the "when: Later" label
-* **when: Enterprise 1.0**: Issues and PRs with the "when: Enterprise 1.0" label
-* **when: Community 1.0**: Issues and PRs with the "when: Community 1.0" label
-* **New PRs + R-Issues (ref'd by new branches)**: New PRs + issues where a new branch referencing that issue was created
-* **when: In progress**: Issues and PRs with the "when: In progress" label
-* **Done**: Issues closed in the last week
-
-You can filter the board by label, who is assigned, milestone, and source repo. 
-
-Shortcuts for specific labels:
-
-| **Label** | **Meaning** |
-|-----------|-------------|
-| [project](https://waffle.io/bigchaindb/org?label=project) | Projects only |
-| [topic: SEC core consensus](https://waffle.io/bigchaindb/org?label=topic:%20SEC%20core%20consensus) | Security, core, consensus |
-| [topic: D&P deplymt perf](https://waffle.io/bigchaindb/org?label=topic:%20D%26P%20deplymt%20perf) | Deployment, performance |
-| [topic: TXS assets data](https://waffle.io/bigchaindb/org?label=topic:%20TXS%20assets%20data) | Transactions, assets, data |
-| [topic: UX docs cmd api driver](https://waffle.io/bigchaindb/org?label=topic:%20UX%20docs%20cmd%20api%20driver) | User experience, documentation, drivers, API |
-| [topic: IPDB](https://waffle.io/bigchaindb/org?label=topic:%20IPDB) | IPDB |
-| [topic: IP PLAT a.io wotn](https://waffle.io/bigchaindb/org?label=topic:%20IP%20PLAT%20a.io%20wotn) | IP platform, ascribe.io, whereonthe.net |
-
-To combine filters in the board interface, click the funnel icon in the top right corner of the board.
-
-At the time of writing, you can't filter to get all PRs & issues with the "when: In the future" label because that label is used to define a column. It's [a known waffle.io bug](https://github.com/waffleio/waffle.io/issues/2327). It's not a big problem, because if you want to see all the PRs & issues with that label, you can just look in the **when: In the future** column. The same is true of other columns defined by labels.
-
 ## Some Repository-Specific GitHub Links
 
 | **Repository** | **Open issues** | **Open PRs** |
@@ -37,3 +8,7 @@ At the time of writing, you can't filter to get all PRs & issues with the "when:
 | BigchainDB Python Driver | [Open issues](https://github.com/bigchaindb/bigchaindb-driver/issues) | [Open PRs](https://github.com/bigchaindb/bigchaindb-driver/pulls) |
 | bigchaindb/cryptoconditions | [Open issues](https://github.com/bigchaindb/cryptoconditions/issues) | [Open PRs](https://github.com/bigchaindb/cryptoconditions/pulls) |
 | This repository | [Open issues](https://github.com/bigchaindb/org/issues) | [Open PRs](https://github.com/bigchaindb/org/pulls) |
+
+## Waffle Board
+
+We have [a "waffle board" (on waffle.io)](https://waffle.io/bigchaindb/org/) which gives a high-level overview of all issues and pull requests from across all BigchainDB repositories on GitHub. You may find it interesting. The **Done** column is things closed in the last week. **New PRs + R-Issues (ref'd by new branches)** is an auto-populated column listing 1) new pull requests and 2) issues where a new branch referencing that issue was created.
