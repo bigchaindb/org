@@ -37,9 +37,3 @@ At the time of writing, you can't filter to get all PRs & issues with the "when:
 | bigchaindb/org | [Open issues](https://github.com/bigchaindb/org/issues) | [Open PRs](https://github.com/bigchaindb/org/pulls) |
 | bigchaindb/cryptoconditions | [Open issues](https://github.com/bigchaindb/cryptoconditions/issues) | [Open PRs](https://github.com/bigchaindb/cryptoconditions/pulls) |
 | bigchaindb/bigchaindb-examples | [Open issues](https://github.com/bigchaindb/bigchaindb-examples/issues) | [Open PRs](https://github.com/bigchaindb/bigchaindb-examples/pulls) |
-
-## Physical Planning Board
-
-Below is a photo the physical planning board in the ascribe office. It's similar to [the waffle.io board view of project-issues](https://waffle.io/bigchaindb/org?label=Project-Issue). We aim to update it regularly.
-
-![Photo of our planning board](Roadmap-24-Aug-2016.png)
