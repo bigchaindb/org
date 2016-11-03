@@ -1,5 +1,12 @@
 # BigchainDB Roadmap
 
+We are drafting a high-level description of what we plan to do next and will publish it here on November 4. Some highlights:
+
+* Improved user experience
+* More benchmarking
+* Steps to get IPDB to production
+* Support for MongoDB as an alternative backend database
+
 ## Some Repository-Specific GitHub Links
 
 | **Repository** | **Open issues** | **Open PRs** |
