@@ -3,7 +3,7 @@
 This is a sketch of some of the things we plan to do in upcoming releases of BigchainDB Server (and associated software). It is, of course, subject to change.
 
 
-## Big-Picure Goals
+## Big-Picture Goals
 
 * Make it easier for developers to code an app that communicates with a BigchainDB cluster (often a cluster run by others). This means improvements to the client-server communications protocol and drivers for building client-side apps.
 * Help [IPDB](https://ipdb.foundation/) (a public BigchainDB cluster) become production-grade.
