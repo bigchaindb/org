@@ -15,6 +15,8 @@ This is a sketch of some of the things we plan to do in upcoming releases of Big
 
 ## Goals for Coming Releases of BigchainDB Server
 
+Note: Each version of BigchainDB Server will be accompanied by a compatible version of the BigchainDB Python Driver.
+
 ### Version 0.8
 
 * Have the IPDB Testnet up and running for select third parties
