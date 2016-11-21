@@ -40,7 +40,7 @@ Note: Each version of BigchainDB Server will be accompanied by a compatible vers
 * Implement the MongoDB code to set up the database
 * Write a formal specification of the transaction data model, used to power transaction schema validation
 * Ability to get all transactions associated with a given public key (client side)
-* Tooling to compose crypto-conditions e.g. using restricted Python --> complied into JSON
+* Tooling to compose crypto-conditions
 
 
 ### Version 0.10
