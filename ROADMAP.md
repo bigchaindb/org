@@ -7,9 +7,8 @@ This is a sketch of some of the things we plan to do in upcoming releases of Big
 
 * Make it easier for developers to code an app that communicates with a BigchainDB cluster (often a cluster run by others). This means improvements to the client-server communications protocol and drivers for building client-side apps.
 * Help [IPDB](https://ipdb.foundation/) (a public BigchainDB cluster) become production-grade.
-* Convert all RethinkDB-specific code to code that has the database backend as a parameter.
-* Add support for a second database backend: [MongoDB](https://www.mongodb.com/).
-* Build the [Wire Protocol Firewall](https://github.com/bigchaindb/bigchaindb/issues/594) for MongoDB.
+* Convert all RethinkDB-specific code to abstract database calls.
+* Write two implementations of all abstract database calls: RethinkDB and [MongoDB](https://www.mongodb.com/).
 * Do more performance benchmarking.
  
 
@@ -17,40 +16,42 @@ This is a sketch of some of the things we plan to do in upcoming releases of Big
 
 Note: Each version of BigchainDB Server will be accompanied by a compatible version of the BigchainDB Python Driver.
 
-### Version 0.8
-
-* Have the IPDB Testnet up and running for select third parties
-* Have a form where developers can sign up for access to the IPDB Testnet
-* Convert all core-code RethinkDB queries (CRUD) into abstract queries
-* Implement the MongoDB versions of all core-code database queries
-* Support for divisible assets
-* (Python Driver) Separate methods to build, sign and push transactions
-
-
 ### Version 0.9
 
-* Some way to restrict access to the HTTP API
-* Federation dashboard v1: measure number of weekly active users
-* Single DNS hostname for HTTP API (with load balancer?)
-* Initial ARM (Azure Resource Manager) template to provision a production node on Azure
-* Docs: streamlined onboarding from bigchaindb.com, for app developers
-* Abstract RethinkDB code in all tests
-* Implement the MongoDB versions of all database calls made in the tests
-* Abstract the code to set up the RethinkDB database (tables, indexes, etc.)
-* Implement the MongoDB code to set up the database
-* Write a formal specification of the transaction data model, used to power transaction schema validation
-* Ability to get all transactions associated with a given public key (client side)
-* Tooling to compose crypto-conditions
-
+* BigchainDB Transaction Model, Version 1.0 Spec
+* BigchainDB HTTP API, Version 1.0 Spec
+* BigchainDB Python Driver, Version 1.0 Spec
+* BigchainDB Websocket API, Version 1.0 Spec
+* Implementations of all the above specs (except maybe not the Websocket API)
 
 ### Version 0.10
 
-(This list will probably change _a lot_.)
+* JavaScript Driver, Version 1.0 Spec
+* Reproduce some reported pain points with performance to understand why (high memory usage and/or slow). Was it their setup? Is it the algorithm?
+* Improve performance / instructions / setup (in follow-up to the above point)
 
-* More dashboards work (node and cluster)
-* More MongoDB support work
-* Start work on the MongoDB wire protocol Firewall
-* Start work on support for permissions & roles
+### Version 0.11
+
+* Design user experience for read permissions support (payload), e.g. using encryption
+* Implement read permissions support (see last point)
+
+### Some Future Things
+
+(This list is just a subset. It will change a lot. The order means nothing.)
+
+* Federation dashboard v1: measure number of weekly active users
+* IPDB Testnet developer portal where one can sign up for an account, get an access token, see usage statistics, etc.
+* Docs: streamlined onboarding from bigchaindb.com, for app developers
+* Initial ARM (Azure Resource Manager) template to provision a production node on Azure
+* Docs for onboarding from ipdb.foundation website
+* IPDB billing
+* Node-monitoring dashboard
+* Document what security guarantees we provide and don't provide
+* Continued work on adding support for MongoDB: many aspects
+* DSL/Querying v1 definition.
+* DSL or similar means to compose crypto-conditions
+* More performance benchmarking
+* More whole-system _correctness_ tests
 
 
 ## Some Repository-Specific GitHub Links
