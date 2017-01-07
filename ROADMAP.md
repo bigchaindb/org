@@ -5,12 +5,11 @@ This is a sketch of some of the things we plan to do in upcoming releases of Big
 
 ## Big-Picture Goals
 
-* Make it easier for developers to code an app that communicates with a BigchainDB cluster (often a cluster run by others). This means improvements to the client-server communications protocol and drivers for building client-side apps.
-* Help [IPDB](https://ipdb.foundation/) (a public BigchainDB cluster) become production-grade.
-* Convert all RethinkDB-specific code to abstract database calls.
-* Write two implementations of all abstract database calls: RethinkDB and [MongoDB](https://www.mongodb.com/).
-* Do more performance benchmarking.
- 
+We're improving BigchainDB along three threads: UX, IPDB, and Core DB.
+
+* UX: Smooth support for user stories. E.g. private payloads, better querying, more. Improvements may be at the level of transaction (a JSON schema), http api, or driver (python, CLI, JS, etc.). 
+* [IPDB](https://ipdb.foundation/): help this public BigchainDB cluster become production-grade. 
+* Core DB: Support [MongoDB](https://www.mongodb.com/), improve performance, improve security
 
 ## Goals for Coming Releases of BigchainDB Server
 
@@ -18,28 +17,22 @@ Note: Each version of BigchainDB Server will be accompanied by a compatible vers
 
 ### Version 0.9
 
-* BigchainDB Transaction Model, Version 1.0 Spec
-* BigchainDB HTTP API, Version 1.0 Spec
-* BigchainDB Python Driver, Version 1.0 Spec
-* BigchainDB Websocket API, Version 1.0 Spec
-* Implementations of all the above specs (except maybe not the Websocket API)
+* Well-defined spec (with implementation) for each of: BDB transaction model, http api, python driver
 
 ### Version 0.10
 
-* JavaScript Driver, Version 1.0 Spec
-* Reproduce some reported pain points with performance to understand why (high memory usage and/or slow). Was it their setup? Is it the algorithm?
-* Improve performance / instructions / setup (in follow-up to the above point)
+* MongoDB support (maybe released sooner)
+* JS driver
+* Improved quering support
 
 ### Version 0.11
 
-* Design user experience for read permissions support (payload), e.g. using encryption
-* Implement read permissions support (see last point)
+* Private payloads, including read permissions as assets
 
 ### Some Future Things
 
 (This list is just a subset. It will change a lot. The order means nothing.)
 
-* Federation dashboard v1: measure number of weekly active users
 * IPDB Testnet developer portal where one can sign up for an account, get an access token, see usage statistics, etc.
 * Docs: streamlined onboarding from bigchaindb.com, for app developers
 * Initial ARM (Azure Resource Manager) template to provision a production node on Azure
@@ -50,7 +43,7 @@ Note: Each version of BigchainDB Server will be accompanied by a compatible vers
 * Continued work on adding support for MongoDB: many aspects
 * DSL/Querying v1 definition.
 * DSL or similar means to compose crypto-conditions
-* More performance benchmarking
+* More performance benchmarking & optimization
 * More whole-system _correctness_ tests
 
 
