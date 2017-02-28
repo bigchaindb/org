@@ -25,7 +25,7 @@ You are someone that deeply cares about the future of the internet, of society. 
 * Type: Permanent
 * Salary: To Be Communicated
 
-We're a tight-knit international team based in Berlin. We’re always building and always shipping, but with an appreciation for the theoretical. We work closely with Ethereum, IPFS, Interledger, and other leaders in the blockchain space.
+We're a tight-knit international team based in Berlin. We’re always building and always shipping, but with an appreciation for the theoretical. We work closely with our users and technology partners, and engage with the global decentralization community.
 
 We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
 
