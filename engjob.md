@@ -23,7 +23,6 @@ You are someone that deeply cares about the future of the internet, of society. 
 ## Position Details
 * Location: Berlin
 * Type: Permanent
-* Salary: To Be Communicated
 
 We're a tight-knit international team based in Berlin. We’re always building and always shipping, but with an appreciation for the theoretical. We work closely with our users and technology partners, and engage with the global decentralization community.
 
