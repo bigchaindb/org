@@ -17,7 +17,7 @@ You are someone that deeply cares about the future of the internet, of society. 
 ## Preferred Qualifications
 * You have a Master’s or PhD in distributed systems, or a related field
 * You have engineered distributed databases, networking protocols, or large-scale transaction systems
-* You've worked with: consensus protocols; Linked Data / Semantic Web; C, C++, Go, Rust, Haskell, Erlang, Clojure, Solidity
+* You've worked with: consensus protocols; Linked Data / Semantic Web; languages such as C, C++, Go, Rust, Haskell, Erlang, Clojure, Solidity
 * As a bonus, we'd love to hear about cool stuff you've done with: new decentralization protocols and tech (Bitcoin, IPFS / libp2p / cid, Ethereum / EVM / Solidity, Tendermint / abci, Interledger, etc), asynchronous Python, container orchestration (Kubernetes, Swarm, Mesosphere, Fleet), databases (ORM, SQL, noSQL, newSQL)
 
 ## Position Details
