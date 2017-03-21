@@ -7,56 +7,55 @@ This is a sketch of some of the things we plan to do in upcoming releases of Big
 
 We're improving BigchainDB along three threads: UX, IPDB, and Core DB.
 
-* UX: Smooth support for user stories. E.g. private payloads, better querying, more. Improvements may be at the level of transaction (a JSON schema), http api, or driver (python, CLI, JS, etc.). 
-* [IPDB](https://ipdb.foundation/): help this public BigchainDB cluster become production-grade. 
-* Core DB: Support [MongoDB](https://www.mongodb.com/), improve performance, improve security
+* Core: improve security, correctness guaranteees, performance, etc.
+* UX: Smooth support for user stories. E.g. private payloads, better querying, more
+* [IPDB](https://ipdb.foundation/): roll out test net to broader set of users; followed by production net
 
 ## Goals for Coming Releases of BigchainDB Server
 
 Note: Each version of BigchainDB Server will be accompanied by a compatible version of the BigchainDB Python Driver.
 
-### Version 0.9
+### Version 0.10 (early Apr 2017)
 
-* Well-defined spec (with implementation) for each of: BDB transaction model, http api, python driver
+* Core: Docs on security, stability and correctness that BDB will provide in version 1.0, and some related system tests
+* Core: Improved logging for BigchainDB server
+* UX: A WebSockets API to retrieve confirmed transactions in real-time.
+* UX: Docs on how to deploy BDB on Kubernetes
+* IPDB: Developer portal for IPDB test net
 
-### Version 0.10
+### Version 1.0 (early June 2017)
 
-* MongoDB support (maybe released sooner)
-* JS driver
-* Improved quering support
+* Core: Recovery: making continuous backups easy, such that “your data is safe” even if a BigchainDB instance gets hacked
+* Core: Security assumption is “as good as centralized” but no more; i.e. at the same level as well-secured mainstream databases.
+* Core: Setting expectations: well-documented guarantees on what we do and don’t provide with respect to security, stability, and correctness.
+* UX: A way to query BigchainDB for data included in a transaction’s payload or asset data.
+* UX: Private payloads, including read permissions as assets
+* IPDB: continued rollout of test net to more users
 
-### Version 0.11
+### Version 1.1 (early Aug 2017), Version 1.2 (early Oct 2017)
 
-* Private payloads, including read permissions as assets
+We will release 1.1 and 1.2, but those will be stepping stones to our targets in 1.3.
 
-### Some Future Things
+### Version 1.3 (mid Dec 2017)
 
-(This list is just a subset. It will change a lot. The order means nothing.)
+* Core: Defense: better walls against the most probable / highest impacting attack vectors. 
+* Core: Monitoring: further improved logging and debuggability.
+* Core: Security Audits: this will be done once we’ve built at the levels of monitoring, recovery, and defense. Start with crowd-sourced audit; followed by professional security audit providers.
+* Core: Security assumption improves because of the improvements to defense, monitoring, and audits. So the new level is “decentralized is better”: with each new decentralized node, security improves on some dimensions. 
+* IPDB: test net open to public
+* IPDB: early adopter users shipping on production net
+* IPDB: caretaker portal
 
-* IPDB Testnet developer portal where one can sign up for an account, get an access token, see usage statistics, etc.
-* Docs: streamlined onboarding from bigchaindb.com, for app developers
-* Initial ARM (Azure Resource Manager) template to provision a production node on Azure
-* Docs for onboarding from ipdb.foundation website
-* IPDB billing
-* Node-monitoring dashboard
-* Document what security guarantees we provide and don't provide
-* Continued work on adding support for MongoDB: many aspects
-* DSL/Querying v1 definition.
-* DSL or similar means to compose crypto-conditions
+### Other Future Stuff
+
+We have a large list of possible features, for UX and otherwise. Some may appear in a 1.0 or 1.3 timeframe; and some later. Here's a few of them.
+
+* Improved querying support
 * More performance benchmarking & optimization
-* More whole-system _correctness_ tests
+* Asset policies, i.e. data that carries a policy
+* Composable assets, i.e. can group many assets together
+* Improved http api
+* and more
 
 
-## Some Repository-Specific GitHub Links
 
-| **Repository** | **Open issues** | **Open PRs** |
-|----------------|-----------------|--------------|
-| BigchainDB Server | [Open issues](https://github.com/bigchaindb/bigchaindb/issues) | [Open PRs](https://github.com/bigchaindb/bigchaindb/pulls) |
-| BigchainDB Python Driver | [Open issues](https://github.com/bigchaindb/bigchaindb-driver/issues) | [Open PRs](https://github.com/bigchaindb/bigchaindb-driver/pulls) |
-| bigchaindb/cryptoconditions | [Open issues](https://github.com/bigchaindb/cryptoconditions/issues) | [Open PRs](https://github.com/bigchaindb/cryptoconditions/pulls) |
-| This repository | [Open issues](https://github.com/bigchaindb/org/issues) | [Open PRs](https://github.com/bigchaindb/org/pulls) |
-
-
-## Waffle Board
-
-We have [a "waffle board" (on waffle.io)](https://waffle.io/bigchaindb/org/) which gives a high-level overview of all issues and pull requests from across all BigchainDB repositories on GitHub. You may find it interesting. The **Done** column is things closed in the last week. **New PRs + R-Issues (ref'd by new branches)** is an auto-populated column listing 1) new pull requests and 2) issues where a new branch referencing that issue was created.
