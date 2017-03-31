@@ -1,6 +1,6 @@
 # BigchainDB Roadmap
 
-This is a sketch of some of the things we plan to do in upcoming releases of BigchainDB Server (and associated software). It is, of course, subject to change.
+Below is a sketch of some of the things we plan to do in upcoming releases of BigchainDB Server (and associated software). It is, of course, subject to change. [This March 2017 medium post](https://blog.bigchaindb.com/bigchaindb-2017-roadmap-d2e7123f9874) gives more context.
 
 
 ## Big-Picture Goals
