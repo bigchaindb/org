@@ -47,7 +47,7 @@ From our very beginnings having a female cofounder, we have been unrelenting on 
 
 **Parenting, Parental Leave:** We love kids! And we recognize the time that parents need for their children's’ well-being, not to mention their own well-being! So we want to give all the space in the world to new parents who wish to spend time with their children: mothers get fully paid maternity leave six weeks prior to birth and eight weeks after. In addition, there are 14 months of 2/3 paid leave, split between the parents according to the parents' choice. And for general parental responsibilities that invariably come up, by all means, go attend to your child. We trust that you are a professional and know how to balance your time.
 
-**Professional and Personal Growth:** BigchainDB is at the epicenter of blockchains + big data + AI, so if you’re not learning them something’s wrong! We’ll be giving you opportunities to represent us speaking at conferences, hosting hackathons, writing, and more. Finally, we give you an annual €2000 budget that you choose as you wish to spend on books, personal conferences, and other things to grow yourself.
+**Professional and Personal Growth:** BigchainDB is at the epicenter of blockchains + big data + AI, so if you’re not learning, then something’s wrong! We’ll be giving you opportunities to represent us speaking at conferences, hosting hackathons, writing, and more. Finally, we give you an annual €2000 budget that you choose as you wish to spend on books, personal conferences, and other things to grow yourself.
 
 **Amazing cool city.** Did we mention, it’s Berlin?
 
