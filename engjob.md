@@ -34,7 +34,8 @@ From our very beginnings having a female cofounder, we have been unrelenting on 
 **Location:** We’re in Berlin, Germany. If you don’t know much about Berlin, don’t fret. Almost all of us have immigrated here, from all over the world, from Canada to India, from Italy to USA. And we love it! 
 
 **Immigration:** We’ll hold your hand in the visa / immigration process, which is smooth and surprisingly fast. 
-Language: We speak English in the office. And in fact if you only speak English, you can easily get by in Berlin. (As is the case for many of our employees.)
+
+**Language:** We speak English in the office. And in fact if you only speak English, you can easily get by in Berlin. (As is the case for many of our employees.)
 
 **Transit:** We’re spoiled, Berlin has one of the best public transit systems in the world. Our office is near a major connection point of the train (S-Bahn), underground (U-bahn) and trams (no “bahn” for that one, sorry). Berlin also has safe bike lines all throughout the city; you can park your bike in the office (finally: see “Health benefits” ;) )
 
