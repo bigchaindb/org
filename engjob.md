@@ -29,7 +29,7 @@ We don’t expect you to be an expert in all of these. Rather, we’d love to se
 
 We're a tight-knit international team based in  Berlin. We’re always building and shipping, but with an appreciation for the theoretical. We work closely with our users, technology partners, and engage with the global decentralization community on and offline.
 
-From our very beginnings having a female cofounder, we have been unrelenting on our approach: we are an equal opportunity employer and value diversity at our company. We strongly encourage applications from women, transgender or non-binary people, people of colour, people with disabilities, or anyone traditionally underrepresented in tech.
+From our very beginnings having a female cofounder: we are an equal opportunity employer and value diversity at our company. We strongly encourage applications from women, transgender or non-binary people, people of colour, people with disabilities, or anyone traditionally underrepresented in tech.
 
 **Location:** We’re in Berlin, Germany. If you don’t know much about Berlin, don’t fret. Almost all of us have immigrated here, from all over the world, from Canada to India, from Italy to USA. And we love it! 
 
@@ -43,7 +43,7 @@ From our very beginnings having a female cofounder, we have been unrelenting on 
 
 **Time off:** Health first. Without health and happiness, what is left? So, our minimum paid leave per year is 25 days, plus statutory national holidays.
 
-**Health Benefits:** You get high-quality universal health care -- it’s Germany! As a bonus, some of the nation’s top university hospitals are here in Berlin. Many of us have a family doctor just down the street from our office. Berlin is also great for sports. 
+**Health Benefits:** Germany has one of the best healthcare systems in the world [Details](http://www.germanyhis.com/). Some of the nation’s top university hospitals are here in Berlin. Many of us have a family doctor just down the street from our office. Berlin is also great for sports. 
 
 **Parenting, Parental Leave:** We love kids! And we recognize the time that parents need for their children's’ well-being, not to mention their own well-being! So we want to give all the space in the world to new parents who wish to spend time with their children: mothers get fully paid maternity leave six weeks prior to birth and eight weeks after. In addition, there are 14 months of 2/3 paid leave, split between the parents according to the parents' choice. And for general parental responsibilities that invariably come up, by all means, go attend to your child. We trust that you are a professional and know how to balance your time.
 
