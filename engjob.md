@@ -4,7 +4,7 @@ BigchainDB is building a decentralized database for the internet, and for collab
 If you are someone that loves to build things and cares deeply about the future of the internet and of society, we want to hear from you.
 
 ## Responsibilities
-* You will design, implement, deploy, benchmark, and maintain decentralized databases and software systems
+* You will design, implement, deploy, and benchmark decentralized databases and software systems
 * You will co-plan and co-design the product with your team in an agile, open-source development process
 
 ## Skills and Experience 
@@ -12,7 +12,7 @@ We don’t expect applicants to be an expert in everything listed below which is
 
 ## Minimum Qualifications
 * You have a Bachelor's in Software Engineering, Computer Science, or related discipline; or equivalent practical experience
-* You love Python, and have 3+ years of production experience
+* You love Python, and have 3+ years of production experience; or you have crazy experience in distributed DBs and are willing to learn Python
 * You have experience with distributed systems, backend development, and web-based tech
 * You possess good communication skills; interacting with your team and others will be an integral part of your daily routine
 * You are a creative, “make it happen” problem solver
