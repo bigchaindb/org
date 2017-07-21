@@ -21,7 +21,7 @@ We don’t expect applicants to be an expert in everything listed below which is
 * You have a Master’s or PhD in distributed systems, or a related field
 * You have engineered distributed databases, networking protocols, or large-scale transaction systems
 * You've worked with: consensus protocols; Linked Data / Semantic Web; languages such as C, C++, Go, Rust, Haskell, Erlang, Clojure, Solidity
-* As a bonus, we'd love to hear about cool stuff you've done with: new decentralization protocols and tech (Bitcoin, IPFS / libp2p / cid, Ethereum / EVM / Solidity, Tendermint / abci, Interledger, etc), asynchronous Python, container orchestration (Kubernetes, Swarm, Mesosphere, Fleet), databases (ORM, SQL, noSQL, newSQL)
+* As a bonus, we'd love to hear about cool stuff you've done with: new decentralization protocols and tech (Bitcoin, IPFS / libp2p / cid, Ethereum / EVM / Solidity, Tendermint / abci, Interledger, etc), asynchronous Python, container orchestration (Kubernetes, Swarm, Mesosphere, Fleet), databases (ORM, SQL, noSQL, newSQL; MongoDB, RethinkDB, Cassandra, CockroachDB, Riak, CouchDB)
 
 We don’t expect you to be an expert in all of these. Rather, we’d love to see that you’re *interested* in them, perhaps know one or two as a starting point, and most importantly, that you’ll learn more about them as you grow with us professionally and personally.
 
