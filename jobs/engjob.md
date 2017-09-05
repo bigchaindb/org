@@ -4,7 +4,7 @@ BigchainDB is building a decentralized database for the internet, and for collab
 If you are someone that loves to build things and cares deeply about the future of the internet and of society, we want to hear from you.
 
 ## Responsibilities
-* You will design, implement, deploy, and benchmark decentralized databases and software systems
+* You will design, implement, deploy, and benchmark decentralized databases and software systems. (This can more more sotware-oriented in design and implementing, or more devops-oriented in deploying and benchmarking. We are a single unified team with different unique strengths.)
 * You will co-plan and co-design the product with your team in an agile, open-source development process
 
 ## Skills and Experience 
