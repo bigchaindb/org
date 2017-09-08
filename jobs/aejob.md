@@ -1,6 +1,6 @@
 # Applications Engineer
 
-is building a decentralized database for the internet, and for collaborative ecosystems. Organizations use our software to build applications that liberate personal data from centralized silos, that help artists & musicians feed their families, and to shine the light of transparency on ossified corrupt systems. It's the promise of blockchain technology, at scale. 
+BigchainDB is building a decentralized database for the internet, and for collaborative ecosystems. Organizations use our software to build applications that liberate personal data from centralized silos, that help artists & musicians feed their families, and to shine the light of transparency on ossified corrupt systems. It's the promise of blockchain technology, at scale. 
 
 You love to help guide users to success - to work with them on both use case and code levels. You love to building amazing user-oriented applications. You have a sense of adventure and travel. You have intuition about and experience with business processes. 
 
