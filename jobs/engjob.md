@@ -1,5 +1,5 @@
 # Decentralized Software Engineer
-BigchainDB is building a decentralized database & data marketplace for the internet, and for collaborative ecosystems. Organizations use our software to build applications that liberate personal data from centralized silos, that help artists & musicians feed their families, and to shine the light of transparency on ossified corrupt systems. It's the promise of blockchain technology, at scale. 
+BigchainDB is a leader in the blockchain space. We're building a decentralized database and a data marketplace for the internet. Organizations use us to build applications that liberate personal data from centralized silos, that help artists & musicians feed their families, and to power their applications in IoT, supply chains, and AI. 
 
 If you are someone that loves to build things and cares deeply about the future of the internet and of society, we want to hear from you.
 
