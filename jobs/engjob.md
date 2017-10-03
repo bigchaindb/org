@@ -1,10 +1,10 @@
 # Decentralized Systems Engineer
-BigchainDB is building a decentralized database for the internet, and for collaborative ecosystems. Organizations use our software to build applications that liberate personal data from centralized silos, that help artists & musicians feed their families, and to shine the light of transparency on ossified corrupt systems. It's the promise of blockchain technology, at scale. 
+BigchainDB is building a decentralized database & data marketplace for the internet, and for collaborative ecosystems. Organizations use our software to build applications that liberate personal data from centralized silos, that help artists & musicians feed their families, and to shine the light of transparency on ossified corrupt systems. It's the promise of blockchain technology, at scale. 
 
 If you are someone that loves to build things and cares deeply about the future of the internet and of society, we want to hear from you.
 
 ## Responsibilities
-* You will design, implement, deploy, and benchmark decentralized databases and software systems. (This can more more sotware-oriented in design and implementing, or more devops-oriented in deploying and benchmarking. We are a single unified team with different unique strengths.)
+* You will research, design, and implement decentralized database software & networks ([BigchainDB](www.bigchaindb.com) & [IPDB](www.ipdb.io)), and data marketplaces ([Ocean Protocol](www.oceanprotocol.com)) 
 * You will co-plan and co-design the product with your team in an agile, open-source development process
 
 ## Skills and Experience 
