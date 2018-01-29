@@ -15,8 +15,8 @@ SWP provides a reusable collaboration model for people working in the same works
 1. To reduce the burden to ask people to "behave" or "leave the room", by having an explicit protocol people agree before entering the room.
 
 ## Design
+1. A person SHOULD write a message to another person before speaking with them.
 1. A person SHOULD NOT be loud.
-1. A person SHOULD NOT talk to more than one person at the time.
-1. One on one conversations MUST be short and occasional.
-1. A person SHOULD write a message to another person before engaging in a conversation with them.
+1. A person SHOULD NOT talk to more than one person at a time.
+1. One-on-one conversations MUST be short and occasional.
 1. A person MUST NOT have meetings or calls unless everyone in the room is involved.
