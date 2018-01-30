@@ -1,4 +1,9 @@
 # Shared Workspace Protocol
+![raw](http://rfc.unprotocols.org/spec:2/COSS/raw.svg)
+
+- Name: Shared Workspace Protocol
+- Status: raw
+- Editor: Alberto Granzotto <alberto@bigchaindb.com>
 
 ## Abstract
 Focusing in a shared workspace (or in the office in general) can be a really challenging task. Working from home solves the problem, but it is **not** an ideal solution if forced by the difficulty to focus in the office.
@@ -15,6 +20,7 @@ SWP provides a reusable collaboration model for people working in the same works
 1. To reduce the burden to ask people to "behave" or "leave the room", by having an explicit protocol people agree before entering the room.
 
 ## Design
+1.
 1. A person SHOULD write a message to another person before speaking with them.
 1. A person SHOULD NOT be loud.
 1. A person SHOULD NOT talk to more than one person at a time.
