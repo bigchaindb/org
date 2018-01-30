@@ -19,4 +19,4 @@ SWP provides a reusable collaboration model for people working in the same works
 1. A person SHOULD NOT be loud.
 1. A person SHOULD NOT talk to more than one person at a time.
 1. One-on-one conversations MUST be short and occasional.
-1. A person MUST NOT have meetings or calls unless everyone in the room is involved.
+1. A person MUST NOT have calls unless everyone in the room is involved.
