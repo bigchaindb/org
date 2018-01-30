@@ -20,7 +20,7 @@ SWP provides a reusable collaboration model for people working in the same works
 1. To reduce the burden to ask people to "behave" or "leave the room", by having an explicit protocol people agree before entering the room.
 
 ## Design
-1.
+1. When implemented, this protocol MUST be visible at the entrance of the shared workspace.
 1. A person SHOULD write a message to another person before speaking with them.
 1. A person SHOULD NOT be loud.
 1. A person SHOULD NOT talk to more than one person at a time.
