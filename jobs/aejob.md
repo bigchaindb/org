@@ -1,5 +1,3 @@
-(We're currently not hiring. But when we are, here's a typical opening.)
-
 # Applications Engineer
 
 BigchainDB is building a decentralized database for the internet, and for collaborative ecosystems. Organizations use our software to build applications that liberate personal data from centralized silos, that help artists & musicians feed their families, and to shine the light of transparency on ossified corrupt systems. It's the promise of blockchain technology, at scale. 
