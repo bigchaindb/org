@@ -6,7 +6,7 @@
 - Editor: Alberto Granzotto <alberto@bigchaindb.com>
 
 ## Abstract
-Focusing in a shared workspace (or in the office in general) can be a really challenging task. Working from home solves the problem, but it is **not** an ideal solution if forced by the difficulty to focus in the office.
+Focusing in a shared workspace (or in the office in general) can be a really challenging task. Working from home solves the problem, but it is not an ideal solution if forced by the difficulty to focus in the office.
 
 The "Shared Workspace Protocol" ("SWP" henceforth) provides a simple set of rules for people working in the same workspace.
 
