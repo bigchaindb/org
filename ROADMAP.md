@@ -8,18 +8,18 @@ Not all changes between BigchainDB Server 1.3 and the next release are listed be
 
 ## Next Release / Immediate Priorities
 
-- UTXO set / apphash for Tendermint + crash-fault tolerance
-- Prod-ready requirements of software that we use: py-abci
-- Shutdown procedure. (Generic process management.)
-- Ability to add validator nodes during runtime: allow less secure version for now.
-- "Scale up node": test what happens when a node runs out of memory.
-- Integration tests
-- Performance benchmarks
-- Setup a local node (i.e. standardize the process)
-- Finish HTTP API changes
-- BigchainDB configuration file updates
-- BigchainDB Server CLI updates (not the client-side CLI: deprecate that)
-- Also see [the Tendermint milestone](https://github.com/bigchaindb/bigchaindb/milestone/16) in GitHub.
+1. UTXO set / apphash for Tendermint + crash-fault tolerance
+1. Prod-ready requirements of software that we use: py-abci
+1. Shutdown procedure. (Generic process management.)
+1. Ability to add validator nodes during runtime: allow less secure version for now.
+1. "Scale up node": test what happens when a node runs out of memory.
+1. Integration tests
+1. Performance benchmarks
+1. Setup a local node (i.e. standardize the process)
+1. Finish HTTP API changes
+1. BigchainDB configuration file updates
+1. BigchainDB Server CLI updates (not the client-side CLI: deprecate that)
+1. Also see [the Tendermint milestone](https://github.com/bigchaindb/bigchaindb/milestone/16) in GitHub.
 
 ## Next Priorities
 
