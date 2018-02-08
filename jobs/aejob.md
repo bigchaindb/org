@@ -6,7 +6,7 @@ You love to help guide users to success - to work with them on both use case and
 
 ## Responsibilities
 * You will work with many users, from half a day at a time to periodically over a timeline of months. 
-* You will rapidly prototype the front and back ends of web-based blockchain applications, connecting to the decentralized stack (IPDB/BigchainDB, IPFS, Ethereum, etc).
+* You will rapidly prototype the front and back ends of web-based blockchain applications, connecting to the decentralized stack (BigchainDB, IPFS, Ethereum, etc).
 * You will give presentations, and host workshops & hackathons on behalf of BigchainDB.
 * You will iterate with the product team, giving them feedback on user needs.
 * You will be based out of Berlin, but traveling to many European locations and beyond.
