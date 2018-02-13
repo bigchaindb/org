@@ -8,18 +8,27 @@ Not all changes between BigchainDB Server 1.3 and the next release are listed be
 
 ## Next Release / Immediate Priorities
 
-1. UTXO set / apphash for Tendermint + crash-fault tolerance
+1. UTXO set / apphash for Tendermint
 1. Prod-ready requirements of software that we use: py-abci
-1. Shutdown procedure. (Generic process management.)
-1. Ability to add validator nodes during runtime: allow less secure version for now.
-1. "Scale up node": test what happens when a node runs out of memory.
-1. Integration tests
-1. Performance benchmarks
-1. Setup a local node (i.e. standardize the process)
+1. Shutdown procedure. (Generic process management.) Crash-fault tolerance.
+   Recover from MongoDB crashes into a consistent state.
+1. Ability to add validator nodes during runtime: allow a less-secure version for now.
+1. Update and expand unit tests (single-node). Add four-node tests. Integration tests using network driver.
+   Run all test on Travis CI, if possible.
+1. Set up a network for the AE team to do some performance tests.
+1. Standard process to set up a local node for development & testing, using Docker Compose
+1. Update Ansible & Vagrant deployment tooling for AE team
+1. Simplify & automate the production deployment process
 1. Finish HTTP API changes
-1. BigchainDB configuration file updates
+1. BigchainDB Server configuration file updates: remove some settings (keys)
+   and add some Tendermint-related settings
 1. BigchainDB Server CLI updates (not the client-side CLI: deprecate that)
-1. Also see [the Tendermint milestone](https://github.com/bigchaindb/bigchaindb/milestone/16) in GitHub.
+1. Consolidate the proposal system (especially COSS)
+1. Increase code coverage of the event stream API, with Tendermint included.
+1. Change the allowed transaction version number from "1.0" to "2.0"
+1. Update the official drivers (Python driver & JavaScript driver)
+
+Also see [the Tendermint milestone](https://github.com/bigchaindb/bigchaindb/milestone/16) in GitHub.
 
 ## Next Priorities
 
@@ -29,6 +38,7 @@ Not all changes between BigchainDB Server 1.3 and the next release are listed be
   1. (?) LevelDB vs other backends in Tendermint
 - Ability to add validator nodes during runtime. The secure version (i.e. checking if enough of the existing node operators agree to it).
 - No more 3scale (currently used by the BigchainDB Testnet)
+- Performance benchmarks
 
 ## Assorted Other Things for the Future
 
@@ -38,3 +48,5 @@ Not all changes between BigchainDB Server 1.3 and the next release are listed be
 - Smart contract support. (Not necessarily within BigchainDB; maybe just better documentation about how to integrate with other smart-contract blockchains.)
 - Prod-ready requirements of software that we use: Tendermint
 - Refactoring
+- Test what happens when a node runs out of memory or hard drive space.
+  For example, what happens when there's no more space for MongoDB to write a block?
