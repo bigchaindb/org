@@ -54,4 +54,4 @@ From our very beginnings having a female cofounder: we are an equal opportunity 
 **Things work.** Did we mention, it’s Germany?
  
 ## Your Next Step?
-Are you up for working with an awesome team, learning a ton, and shipping code that matters? Please email <engjob@bigchaindb.com>, with your cover letter, resume, and code samples (e.g. GitHub profile).
+Are you up for working with an awesome team, learning a ton, and shipping code that matters? Please email <jobs@bigchaindb.com>, with your cover letter, resume, and code samples (e.g. GitHub profile).
