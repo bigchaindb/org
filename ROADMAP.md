@@ -8,25 +8,30 @@ Not all changes between BigchainDB Server 1.3 and the next release are listed be
 
 ## Next Release / Immediate Priorities
 
-1. UTXO set / apphash for Tendermint
+### Done for Sure
+
+1. Finish HTTP API changes
+1. Simplify & automate the production deployment process
+1. Consolidate the proposal system (especially COSS)
+1. Change the allowed transaction version number from "1.0" to "2.0"
+1. Update the official drivers (Python driver & JavaScript driver)
+
+### Not Done Yet, or Not Sure if Done Yet
+
+1. UTXO set / apphash for Tendermint. - Might be done. Ask Sylvain.
 1. Prod-ready requirements of software that we use: py-abci
 1. Shutdown procedure. (Generic process management.) Crash-fault tolerance.
    Recover from MongoDB crashes into a consistent state.
-1. Ability to add validator nodes during runtime: allow a less-secure version for now.
+1. Ability to add validator nodes during runtime: allow a less-secure version for now. - Nearly done now. PR in review.
 1. Update and expand unit tests (single-node). Add four-node tests. Integration tests using network driver.
    Run all test on Travis CI, if possible.
 1. Set up a network for the AE team to do some performance tests.
 1. Standard process to set up a local node for development & testing, using Docker Compose
 1. Update Ansible & Vagrant deployment tooling for AE team
-1. Simplify & automate the production deployment process
-1. Finish HTTP API changes
 1. BigchainDB Server configuration file updates: remove some settings (keys)
    and add some Tendermint-related settings
-1. BigchainDB Server CLI updates (not the client-side CLI: deprecate that)
-1. Consolidate the proposal system (especially COSS)
+1. BigchainDB Server CLI updates (not the client-side CLI: deprecate that) - Almost done. Last PR in review.
 1. Increase code coverage of the event stream API, with Tendermint included.
-1. Change the allowed transaction version number from "1.0" to "2.0"
-1. Update the official drivers (Python driver & JavaScript driver)
 
 Also see [the Tendermint milestone](https://github.com/bigchaindb/bigchaindb/milestone/16) in GitHub.
 
