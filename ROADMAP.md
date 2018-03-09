@@ -15,6 +15,7 @@ Not all changes between BigchainDB Server 1.3 and the next release are listed be
 1. Consolidate the proposal system (especially COSS)
 1. Change the allowed transaction version number from "1.0" to "2.0"
 1. Update the official drivers (Python driver & JavaScript driver)
+1. BigchainDB Server CLI updates (not the client-side CLI: deprecate that)
 
 ### Not Done Yet, or Not Sure if Done Yet
 
@@ -30,7 +31,6 @@ Not all changes between BigchainDB Server 1.3 and the next release are listed be
 1. Update Ansible & Vagrant deployment tooling for AE team
 1. BigchainDB Server configuration file updates: remove some settings (keys)
    and add some Tendermint-related settings
-1. BigchainDB Server CLI updates (not the client-side CLI: deprecate that) - Almost done. Last PR in review.
 1. Increase code coverage of the event stream API, with Tendermint included.
 
 Also see [the Tendermint milestone](https://github.com/bigchaindb/bigchaindb/milestone/16) in GitHub.
