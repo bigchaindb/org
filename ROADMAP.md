@@ -6,8 +6,10 @@ The next release of BigchainDB Server has some significant changes and so the na
 
 Not all changes between BigchainDB Server 1.3 and the next release are listed below. The "Next Release" list includes the main items to do as of 30 January, 2018.
 
-## Next Release / Immediate Priorities
-## BigchainDB 2.0 is due before 31 March 2018
+## Next Release
+## BigchainDB 2.0
+
+The first BigchainDB 2.0 release will occur in March 2018. It will probably be named BigchainDB 2.0 Alpha. That release will be followed by Beta, RC1, RC2, etc., and then the final release, probably sometime in April 2018.
 
 ### Done for Sure
 
@@ -20,10 +22,11 @@ Not all changes between BigchainDB Server 1.3 and the next release are listed be
 
 ### Not Done Yet, or Not Sure if Done Yet
 
+1. Constructing the UTXO set and computing the app hash _the slow way_.
 1. Prod-ready requirements of software that we use: py-abci
 1. Shutdown procedure. (Generic process management.) Crash-fault tolerance.
    Recover from MongoDB crashes into a consistent state.
-1. Ability to add validator nodes during runtime: allow a less-secure version for now. - Nearly done now. PR in review.
+1. New `bigchaindb upsert-validator` subcommand to add/change/remove a validator at run time, "insecure" way. - PRs in review
 1. Update and expand unit tests (single-node). Add four-node tests. Integration tests using network driver.
    Run all test on Travis CI, if possible.
 1. Set up a network for the AE team to do some performance tests.
@@ -31,17 +34,17 @@ Not all changes between BigchainDB Server 1.3 and the next release are listed be
 1. Update Ansible & Vagrant deployment tooling for AE team
 1. BigchainDB Server configuration file updates: remove some settings (keys)
    and add some Tendermint-related settings
-1. Increase code coverage of the event stream API, with Tendermint included.
+1. The Events API: update it and increase code coverage, with Tendermint included.
 
 Also see [the Tendermint milestone](https://github.com/bigchaindb/bigchaindb/milestone/16) in GitHub.
 
 ## Next Priorities
 
-- Don't see your important must-have pet feature here? See our docs on [Contributing to BigchainDB](https://github.com/bigchaindb/bigchaindb/pull/2119).
-- UTXO set / app hash for Tendermint. We did some work on this but want to get this right, write a proper BEP first, etc.
+- If you don't see your important must-have pet feature here, please see our docs on Contributing to BigchainDB (coming soon).
+- Updating the UTXO set and computing the app hash _the efficient way_.
 - Implementation of [5/IDRP](https://github.com/bigchaindb/BEPs/pull/13)? What can we do now?
 - (?) LevelDB vs other backends in Tendermint?
-- Ability to add validator nodes during runtime. The secure version (i.e. checking if enough of the existing node operators agree to it).
+- A "secure" replacement for the `bigchaindb upsert-validator` subcommand.
 - No more 3scale (currently used by the BigchainDB Testnet)
 - Performance benchmarks
 
