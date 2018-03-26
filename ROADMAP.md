@@ -21,8 +21,6 @@ The first BigchainDB 2.0 release will occur in March 2018. It will probably be n
 1. BigchainDB Server CLI updates (not the client-side CLI: deprecate that)
 1. Compute an app hash for Tendermint (in a dumb way _that works_).
 1. Standard process to set up a local node for development & testing, using Docker Compose.
-1. Better queries / open MongoDB. A node operator can allow full access to its
-   local MongoDB instance by authenticated users: document that.
 
 ### Not Done Yet, or Not Sure if Done Yet
 
@@ -34,6 +32,8 @@ The first BigchainDB 2.0 release will occur in March 2018. It will probably be n
 1. BigchainDB Server configuration file updates: remove some settings (keys)
    and add some Tendermint-related settings. Some of this is done...
 1. The Events API: update it and increase code coverage, with Tendermint included.
+1. Better queries / open MongoDB. A node operator can allow full access to its
+   local MongoDB instance by authenticated users: document that.
 
 Also see [the Tendermint milestone](https://github.com/bigchaindb/bigchaindb/milestone/16) in GitHub.
 
