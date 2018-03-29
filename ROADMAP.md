@@ -6,9 +6,9 @@ BigchainDB 2.0 has several changes. The biggest is the switch from using MongoDB
 
 ## Next Release: BigchainDB 2.0 Alpha
 
-The BigchainDB 2.0 Alpha release will occur in March 2018. That release will be followed by Beta, RC1, RC2, etc., and then the final release, BigchainDB 2.0, probably sometime in April 2018.
+The BigchainDB 2.0 Alpha release will occur on Tuesday, April 3, 2018. That release will be followed soon after by Beta, RC1, RC2, etc., and then the final release, BigchainDB 2.0.
 
-### Done for Sure
+### Done
 
 1. Finish HTTP API changes
 1. Simplify & automate the production deployment process
@@ -19,14 +19,14 @@ The BigchainDB 2.0 Alpha release will occur in March 2018. That release will be 
 1. Compute an app hash for Tendermint (in a dumb way _that works_).
 1. Standard process to set up a local node for development & testing, using Docker Compose.
 1. Set up a network for the AE team to do some performance tests.
+1. New `bigchaindb upsert-validator` subcommand to add/change/remove a validator at run time, "insecure" way.
+1. The Events API ane Events Plugin API: update code & docs.
 
-### Not Done Yet, or Not Sure if Done Yet
+### Not Sure if Done Yet
 
-1. New `bigchaindb upsert-validator` subcommand to add/change/remove a validator at run time, "insecure" way. - All remaining open PRs are ready to merge.
-1. Update Ansible & Vagrant deployment tooling for AE team. Coming soon!
+1. Update Ansible & Vagrant deployment tooling for AE team.
 1. BigchainDB Server configuration file updates: remove some settings (keys)
    and add some Tendermint-related settings. Some of this is done...
-1. The Events API: update it and increase code coverage, with Tendermint included.
 
 We have a [kanban board (GitHub organization project board) to track the status of BigchainDB 2.0 tasks](https://github.com/orgs/bigchaindb/projects/4). To view it, you must be a member of the **bigchaindb** organization on GitHub; you can ask to be added by emailing troy@bigchaindb.com. In the future, we might use a third-party tool to publish the content of that board on a public website. (GitHub won't let us make the board public. That's not an option.)
 
@@ -39,6 +39,7 @@ We have a [kanban board (GitHub organization project board) to track the status 
 - Implement and begin using the network driver for tests.
 - Four-node tests.
 - More integration tests. For example, make more tests of `bigchaindb upsert-validator`.
+- Increase code test coverage on the Events API.
 - Run all test on Travis CI, if possible.
 - Efficiently update the UTXO Set and compute the app hash with each new block.
 - Implementation of [BEP-5/IDRP](https://github.com/bigchaindb/BEPs/pull/13)? What can we do now?
