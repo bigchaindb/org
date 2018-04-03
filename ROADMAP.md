@@ -22,25 +22,22 @@ The BigchainDB 2.0 Alpha release will occur on Tuesday, April 3, 2018. That rele
 1. New `bigchaindb upsert-validator` subcommand to add/change/remove a validator at run time, "insecure" way.
 1. The Events API ane Events Plugin API: update code & docs.
 
-### Not Sure if Done Yet
-
-1. Update Ansible & Vagrant deployment tooling for AE team.
-1. BigchainDB Server configuration file updates: remove some settings (keys)
-   and add some Tendermint-related settings. Some of this is done...
-
 We have a [kanban board (GitHub organization project board) to track the status of BigchainDB 2.0 tasks](https://github.com/orgs/bigchaindb/projects/4). To view it, you must be a member of the **bigchaindb** organization on GitHub; you can ask to be added by emailing troy@bigchaindb.com. In the future, we might use a third-party tool to publish the content of that board on a public website. (GitHub won't let us make the board public. That's not an option.)
 
 ## Next Priorities
 
 - If you don't see your important feature here, please read about how to request a feature in our docs on [Contributing to BigchainDB](https://docs.bigchaindb.com/projects/contributing/en/latest/index.html).
 - Write about how a node operator can expose the full power of MongoDB to users. For example, they could allow users to make any valid MongoDB query.
+- Update Ansible & Vagrant deployment tooling for AE team.
+- BigchainDB Server configuration file updates: remove some settings (keys)
+  and add some Tendermint-related settings. Some of this is done.
 - More performance tests. Share how we do those tests. Share the results.
 - More unit tests.
 - Implement and begin using the network driver for tests.
 - Four-node tests.
 - More integration tests. For example, make more tests of `bigchaindb upsert-validator`.
 - Increase code test coverage on the Events API.
-- Run all test on Travis CI, if possible.
+- Run all tests on Travis CI, if possible.
 - Efficiently update the UTXO Set and compute the app hash with each new block.
 - Implementation of [BEP-5/IDRP](https://github.com/bigchaindb/BEPs/pull/13)? What can we do now?
 - A clean `bigchaindb` shutdown procedure. Generic process management.
@@ -48,8 +45,10 @@ We have a [kanban board (GitHub organization project board) to track the status 
 - We'd like more production-ready ABCI server software. (We currently use `py-abci`; it needs more tests. Maybe use _different_ ABCI server software instead?)
 - No more 3scale (currently used by the BigchainDB Testnet)
 
-## Assorted Other Things for the Future
+## Assorted Other Things for the Near to Medium Term Future
 
+- Support hashlock conditions (securely: need to make sure that every transaction is still signed by a client)
+- Support timelock conditions
 - (?) LevelDB vs other backends in Tendermint?
 - A "secure" replacement for the `bigchaindb upsert-validator` subcommand.
 - Plugins/extensions for specialized use cases
