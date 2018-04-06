@@ -1,14 +1,12 @@
 # BigchainDB Roadmap
 
-Below is a sketch of some of the things we plan to do in upcoming releases of BigchainDB Server (and associated software). It is, of course, subject to change.
+Below is a sketch of some of the things we plan to do in upcoming releases of BigchainDB Server (and associated software), i.e. in the near term. It is, of course, subject to change.
 
-BigchainDB 2.0 has several changes. The biggest is the switch from using MongoDB for replication and consensus to using Tendermint for that. Most of the other changes are consequences of that one. Not all changes between BigchainDB Server 1.3 and 2.0 are listed below. The "Next Release" list includes the main items to do as of 30 January, 2018.
+If you don't see your important feature listed here, please read about how to request a feature in our docs on [Contributing to BigchainDB](https://docs.bigchaindb.com/projects/contributing/en/latest/index.html).
 
-## Next Release: BigchainDB 2.0 Alpha
+## BigchainDB 2.0
 
-The BigchainDB 2.0 Alpha release will occur on Tuesday, April 3, 2018. That release will be followed soon after by Beta, RC1, RC2, etc., and then the final release, BigchainDB 2.0.
-
-### Done
+### Done for BigchainDB 2.0.0 Alpha (Released on April 3, 2018)
 
 1. Finish HTTP API changes
 1. Simplify & automate the production deployment process
@@ -22,14 +20,15 @@ The BigchainDB 2.0 Alpha release will occur on Tuesday, April 3, 2018. That rele
 1. New `bigchaindb upsert-validator` subcommand to add/change/remove a validator at run time, "insecure" way.
 1. The Events API ane Events Plugin API: update code & docs.
 
-We have a [kanban board (GitHub organization project board) to track the status of BigchainDB 2.0 tasks](https://github.com/orgs/bigchaindb/projects/4). To view it, you must be a member of the **bigchaindb** organization on GitHub; you can ask to be added by emailing troy@bigchaindb.com. In the future, we might use a third-party tool to publish the content of that board on a public website. (GitHub won't let us make the board public. That's not an option.)
+## BigchainDB 2.0 TODO
 
-## Next Priorities
+We intend to do some intermediate releases, e.g. 2.0 Beta, 2.0 RC1 before releasing the final BigchainDB 2.0.0.
 
-- If you don't see your important feature here, please read about how to request a feature in our docs on [Contributing to BigchainDB](https://docs.bigchaindb.com/projects/contributing/en/latest/index.html).
+- Resolve known issues and bugs.
+- Support for metadata search in the Python driver.
 - Write about how a node operator can expose the full power of MongoDB to users. For example, they could allow users to make any valid MongoDB query.
 - Update Ansible & Vagrant deployment tooling for AE team.
-- BigchainDB Server configuration file updates: remove some settings (keys)
+- Updates to the BigchainDB Server configuration settings: remove some settings (keys)
   and add some Tendermint-related settings. Some of this is done.
 - More performance tests. Share how we do those tests. Share the results.
 - More unit tests.
@@ -38,15 +37,15 @@ We have a [kanban board (GitHub organization project board) to track the status 
 - More integration tests. For example, make more tests of `bigchaindb upsert-validator`.
 - Increase code test coverage on the Events API.
 - Run all tests on Travis CI, if possible.
-- Efficiently update the UTXO Set and compute the app hash with each new block.
 - Implementation of [BEP-5/IDRP](https://github.com/bigchaindb/BEPs/pull/13)? What can we do now?
 - A clean `bigchaindb` shutdown procedure. Generic process management.
 - Crash-fault tolerance, e.g. Recover from MongoDB crashes into a consistent state. There has already been work on that.
-- We'd like more production-ready ABCI server software. (We currently use `py-abci`; it needs more tests. Maybe use _different_ ABCI server software instead?)
-- No more 3scale (currently used by the BigchainDB Testnet)
+- We'd like more production-ready ABCI server software. Support Tendermint 0.16. (We currently use `py-abci`; it needs more tests. Maybe use _different_ ABCI server software instead?)
 
 ## Assorted Other Things for the Near to Medium Term Future
 
+- New way to compute the app hash based on the UTXO set, including an efficient way to update the Merkle tree used to compute the app hash from the UTXO set.
+- No more 3scale (currently used by the BigchainDB Testnet)
 - Support hashlock conditions (securely: need to make sure that every transaction is still signed by a client)
 - Support timelock conditions
 - (?) LevelDB vs other backends in Tendermint?
