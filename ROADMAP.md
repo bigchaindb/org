@@ -22,7 +22,7 @@ If you don't see your important feature listed here, please read about how to re
 
 ## BigchainDB 2.0 TODO
 
-We intend to do some intermediate releases, e.g. 2.0 Beta, 2.0 RC1 before releasing the final BigchainDB 2.0.0.
+We intend to do some intermediate releases, e.g. 2.0 Beta, 2.0 RC1 before releasing the final BigchainDB 2.0.0. We're using a GitHub organization project board to track issues and pull requests related to the final release of BigchainDB 2.0: [BigchainDB 2.0 TODO](https://github.com/orgs/bigchaindb/projects/5)
 
 - Resolve known issues and bugs.
 - Support for metadata search in the Python driver.
