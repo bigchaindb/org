@@ -24,7 +24,7 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 1. New `bigchaindb upsert-validator` subcommand to add/change/remove a validator at run time, "insecure" way.
 1. The Events API ane Events Plugin API: update code & docs.
 
-### Goals for BigchainDB 2.0 Alpha 2
+### Done in BigchainDB 2.0 Alpha 2, Released on April 18, 2018
 
 1. Implement [BEP-8](https://github.com/bigchaindb/BEPs/tree/master/8).
 1. Provide more informative HTTP responses when posting transactions.
