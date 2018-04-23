@@ -33,7 +33,7 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 
 1. Fix all priority-0 bugs, such as [issue #2182](https://github.com/bigchaindb/bigchaindb/issues/2182).
 1. Integrate the latest verson of Tendermint. This means upgrading the ABCI server software used by BigchainDB (py-abci).
-1. In our production deployment template, have Tendermint and BigchainDB as one Kubernetes Pod or Service.
+1. In our production deployment template, have Tendermint and BigchainDB as one thing-to-run (e.g. one Kubernetes Pod or one service).
 1. Have a second, internal test network, where each node is operated by a different BigchainDB employee.
 
 ### Goals for BigchainDB 2.0 Beta, due in the Second Half of May
