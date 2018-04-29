@@ -29,17 +29,17 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 1. Implement [BEP-8](https://github.com/bigchaindb/BEPs/tree/master/8).
 1. Provide more informative HTTP responses when posting transactions.
 
-### Goals for BigchainDB 2.0 Alpha 3
+### Goals for BigchainDB 2.0 Alpha 3, to bo Released on May 3, 2018
 
-1. Fix all priority-0 bugs, such as [issue #2182](https://github.com/bigchaindb/bigchaindb/issues/2182). Note: This may get delayed to a release before 2.0 Beta. Stay tuned.
+1. Fix all priority-0 bugs, such as [issue #2182](https://github.com/bigchaindb/bigchaindb/issues/2182).
 1. Integrate the latest verson of Tendermint. This means upgrading the ABCI server software used by BigchainDB (py-abci).
-1. In our production deployment template, have Tendermint and BigchainDB as one thing-to-run (e.g. one Kubernetes Pod or one service).
+1. In our production deployment template, combine Tendermint and BigchainDB inside _one_ Kubernetes StatefulSet (a kind of pod, one with persistent state).
 1. Have a second, internal test network, where each node is operated by a different BigchainDB employee.
 
 ### Goals for BigchainDB 2.0 Beta, due in the Second Half of May
 
 1. Publish all testing software and test results, including integration tests, performance tests (benchmarks), and stress tests.
-1. Remove some dead code, e.g. the code for RethinkDB support, and the "pipelines" code
+1. Remove some dead code, e.g. the code for RethinkDB support, and the "pipelines" code.
 
 ### Goals for the Final Stable Release of BigchainDB 2.0
 
