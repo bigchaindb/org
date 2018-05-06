@@ -29,28 +29,27 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 1. Implement [BEP-8](https://github.com/bigchaindb/BEPs/tree/master/8).
 1. Provide more informative HTTP responses when posting transactions.
 
-### Goals for BigchainDB 2.0 Alpha 3, to bo Released on May 3, 2018
+### Done in BigchainDB 2.0 Alpha 3, Released on May 3, 2018
 
 1. Fix all priority-0 bugs, such as [issue #2182](https://github.com/bigchaindb/bigchaindb/issues/2182).
 1. Integrate the latest verson of Tendermint. This means upgrading the ABCI server software used by BigchainDB (py-abci).
 1. In our production deployment template, combine Tendermint and BigchainDB inside _one_ Kubernetes StatefulSet (a kind of pod, one with persistent state).
-1. Have a second, internal test network, where each node is operated by a different BigchainDB employee.
+1. Documentation about how a node operator can expose the full power of MongoDB to users.
 
 ### Goals for BigchainDB 2.0 Beta, due in the Second Half of May
 
+1. Have a second, internal test network, where each node is operated by a different BigchainDB employee.
 1. Publish all testing software and test results, including integration tests, performance tests (benchmarks), and stress tests.
 1. Remove some dead code, e.g. the code for RethinkDB support, and the "pipelines" code.
 
 ### Goals for the Final Stable Release of BigchainDB 2.0
 
-1. All the goals listed above.
 1. Migration to future versions should be _possible_. See the explanation of what that means in the first paragraph of this section.
 1. The test networks have run without issue for weeks.
 1. Known causes of failure (e.g. DDoS attacks) are documented.
 
 Other things that might be done for the 2.0 release include:
 
-- Documentation about how a node operator can expose the full power of MongoDB to users. For example, they could allow users to make any valid MongoDB query.
 - Updated Ansible & Vagrant deployment tooling for AE team.
 - Updates to the BigchainDB Server configuration settings: remove some settings (keys) and add some Tendermint-related settings. Some of this is done.
 - Increased code test coverage on the Events API.
@@ -59,6 +58,8 @@ Other things that might be done for the 2.0 release include:
 
 ## Some Goals for BigchainDB 2.1 and Beyond
 
+- Example projects showing how to use BigchainDB with other decentralized systems, especially Ethereum.
+- Refactoring, especially of the transaction-related code.
 - New way to compute the app hash based on the UTXO set, including an efficient way to update the Merkle tree used to compute the app hash from the UTXO set.
 - No more 3scale (currently used by the BigchainDB Testnet)
 - Support hashlock conditions (securely: need to make sure that every transaction is still signed by a client)
@@ -66,5 +67,8 @@ Other things that might be done for the 2.0 release include:
 - (?) LevelDB vs other backends in Tendermint?
 - Plugins/extensions for specialized use cases
 - Smart contract support. (Not necessarily within BigchainDB; maybe just better documentation about how to integrate with other smart-contract blockchains.)
-- Refactoring, especially of the transaction-related code.
 - Test what happens when a node runs out of memory or hard drive space. For example, what happens when there's no more space for MongoDB to write a block?
+
+## BigchainDB 3.0?
+
+- Make it possible to run a public BigchainDB network where anyone can add a node (without permission).
