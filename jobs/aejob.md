@@ -42,7 +42,7 @@ From our very beginnings having a female cofounder: we are an equal opportunity 
 
 **Transit:** We’re spoiled, Berlin has one of the best public transit systems in the world. Our office is near a major connection point of the train (S-Bahn), underground (U-bahn) and trams (no “bahn” for that one, sorry). Berlin also has safe bike lines all throughout the city; you can park your bike in the office (finally: see “Health benefits” ;) )
 
-**Working hours:** The engineering team has a daily standup at 9.30am. In general we try to be around the office until 5pm. But if your 3yo has an event at the local kita, by all means, go! Or if you get on a roll and work late, then please, sleep in. Or if you wish to work from home now and then, that’s ok. We trust you to do your job, and doing your job is about getting the task done, not us looking over your shoulder.
+**Working hours:** In general we try to be around the office until 5pm. But if your 3yo has an event at the local kita, by all means, go! Or if you get on a roll and work late, then please, sleep in. Or if you wish to work from home now and then, that’s ok. We trust you to do your job, and doing your job is about getting the task done, not us looking over your shoulder.
 
 **Time off:** Health first. Without health and happiness, what is left? So, our minimum paid leave per year is 25 days, plus statutory national holidays.
 
