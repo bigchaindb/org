@@ -36,7 +36,7 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 1. In our production deployment template, combine Tendermint and BigchainDB inside _one_ Kubernetes StatefulSet (a kind of pod, one with persistent state).
 1. Documentation about how a node operator can expose the full power of MongoDB to users.
 
-### Goals for BigchainDB 2.0 Beta, due in the Second Half of May
+### Goals for BigchainDB 2.0 Beta, due in June
 
 1. Have a second, internal test network, where each node is operated by a different BigchainDB employee.
 1. Publish all testing software and test results, including integration tests, performance tests (benchmarks), and stress tests.
