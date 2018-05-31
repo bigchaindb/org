@@ -39,18 +39,18 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 ### Goals for BigchainDB 2.0 Beta, due in June
 
 1. Have a second, internal test network, where each node is operated by a different BigchainDB employee.
-1. Publish all testing software and test results, including integration tests, performance tests (benchmarks), and stress tests.
+1. Update the Ansible & Vagrant deployment tooling.
 1. Remove some dead code, e.g. the code for RethinkDB support, and the "pipelines" code.
 
 ### Goals for the Final Stable Release of BigchainDB 2.0
 
+1. Publish all testing software and test results, including integration tests, performance tests (benchmarks), and stress tests.
 1. Migration to future versions should be _possible_. See the explanation of what that means in the first paragraph of this section.
 1. The test networks have run without issue for weeks.
 1. Known causes of failure (e.g. DDoS attacks) are documented.
 
 Other things that might be done for the 2.0 release include:
 
-- Updated Ansible & Vagrant deployment tooling for AE team.
 - Updates to the BigchainDB Server configuration settings: remove some settings (keys) and add some Tendermint-related settings. Some of this is done.
 - Increased code test coverage on the Events API.
 - All (or most) tests are running on Travis CI.
