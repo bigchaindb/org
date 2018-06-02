@@ -36,7 +36,7 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 1. In our production deployment template, combine Tendermint and BigchainDB inside _one_ Kubernetes StatefulSet (a kind of pod, one with persistent state).
 1. Documentation about how a node operator can expose the full power of MongoDB to users.
 
-### Goals for BigchainDB 2.0 Beta, due in June
+### Done in BigchainDB 2.0 Beta 1, Released on June 1, 2018
 
 1. Have a second, internal test network, where each node is operated by a different BigchainDB employee.
 1. Update the Ansible & Vagrant deployment tooling.
@@ -48,11 +48,11 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 1. Migration to future versions should be _possible_. See the explanation of what that means in the first paragraph of this section.
 1. The test networks have run without issue for weeks.
 1. Known causes of failure (e.g. DDoS attacks) are documented.
+1. Updates to the BigchainDB Server configuration settings: remove some settings (keys) and add some Tendermint-related settings. Some of this is done.
+1. Increased code test coverage on the Events API.
 
 Other things that might be done for the 2.0 release include:
 
-- Updates to the BigchainDB Server configuration settings: remove some settings (keys) and add some Tendermint-related settings. Some of this is done.
-- Increased code test coverage on the Events API.
 - All (or most) tests are running on Travis CI.
 - Implementation of a clean `bigchaindb` shutdown procedure. Generic process management.
 
