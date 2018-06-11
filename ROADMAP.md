@@ -46,15 +46,18 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 
 1. Publish all testing software and test results, including integration tests, performance tests (benchmarks), and stress tests.
 1. Migration to future versions should be _possible_. See the explanation of what that means in the first paragraph of this section.
+1. Implementation of a [clean shutdown procedure (for BigchainDB)](https://github.com/bigchaindb/bigchaindb/projects/7). This is a blocker for the next item...
+1. BigchainDB and Tendermint packaged as a single service unit. (This is [issue #2238](https://github.com/bigchaindb/bigchaindb/issues/2238).)
 1. The test networks have run without issue for weeks.
+1. Tendermint 1.0 has been released. One can check that on the [Cosmos Roadmap page](https://cosmos.network/roadmap).
 1. Known causes of failure (e.g. DDoS attacks) are documented.
-1. Updates to the BigchainDB Server configuration settings: remove some settings (keys) and add some Tendermint-related settings. Some of this is done.
-1. Increased code test coverage on the Events API.
+1. Updates to the BigchainDB Server configuration settings: remove some settings (keys) and maybe add some Tendermint-related settings. Some of this is done.
+1. Most of the old defunct code is removed.
 
 Other things that might be done for the 2.0 release include:
 
+- Increased code test coverage on the Events API.
 - All (or most) tests are running on Travis CI.
-- Implementation of a clean `bigchaindb` shutdown procedure. Generic process management.
 
 ## Some Goals for BigchainDB 2.1 and Beyond
 
