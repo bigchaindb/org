@@ -1,12 +1,10 @@
-(We're currently not hiring. But when we are, here's a typical opening.)
-
 # Decentralized Software Engineer
 BigchainDB is a leader in the blockchain space. We're building a decentralized database and a data marketplace for the internet. Organizations use us to build applications that liberate personal data from centralized silos, that help artists & musicians feed their families, and to power their applications in IoT, supply chains, and AI. 
 
 If you are someone that loves to build things and cares deeply about the future of the internet and of society, we want to hear from you.
 
 ## Responsibilities
-* You will research, design, and implement decentralized database software & networks ([BigchainDB](www.bigchaindb.com) & [IPDB](www.ipdb.io)), and data marketplaces ([Ocean Protocol](www.oceanprotocol.com)) 
+* You will research, design, and implement decentralized database software & networks ([BigchainDB](https://www.bigchaindb.com) & [IPDB](https://ipdb.io/)), and data marketplaces ([Ocean Protocol](https://oceanprotocol.com/)) 
 * You will co-plan and co-design the product with your team in an agile, open-source development process
 
 ## Skills and Experience 
@@ -41,7 +39,7 @@ From our very beginnings having a female cofounder: we are an equal opportunity 
 
 **Transit:** We’re spoiled, Berlin has one of the best public transit systems in the world. Our office is near a major connection point of the train (S-Bahn), underground (U-bahn) and trams (no “bahn” for that one, sorry). Berlin also has safe bike lines all throughout the city; you can park your bike in the office (finally: see “Health benefits” ;) )
 
-**Working hours:** The engineering team has a daily standup at 9.30am. In general we try to be around the office until 5pm. But if your 3yo has an event at the local kita, by all means, go! Or if you get on a roll and work late, then please, sleep in. Or if you wish to work from home now and then, that’s ok. We trust you to do your job, and doing your job is about getting the task done, not us looking over your shoulder.
+**Working hours:** In general we try to be around the office until 5pm. But if your 3yo has an event at the local kita, by all means, go! Or if you get on a roll and work late, then please, sleep in. Or if you wish to work from home now and then, that’s ok. We trust you to do your job, and doing your job is about getting the task done, not us looking over your shoulder.
 
 **Time off:** Health first. Without health and happiness, what is left? So, our minimum paid leave per year is 25 days, plus statutory national holidays.
 
@@ -56,4 +54,4 @@ From our very beginnings having a female cofounder: we are an equal opportunity 
 **Things work.** Did we mention, it’s Germany?
  
 ## Your Next Step?
-Are you up for working with an awesome team, learning a ton, and shipping code that matters? Please email <engjob@bigchaindb.com>, with your cover letter, resume, and code samples (e.g. GitHub profile).
+Are you up for working with an awesome team, learning a ton, and shipping code that matters? Please email <jobs@bigchaindb.com>, with your cover letter, resume, and code samples (e.g. GitHub profile).

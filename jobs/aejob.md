@@ -1,6 +1,4 @@
-(We're currently not hiring. But when we are, here's a typical opening.)
-
-# Applications Engineer
+# Blockchain Consultant
 
 BigchainDB is building a decentralized database for the internet, and for collaborative ecosystems. Organizations use our software to build applications that liberate personal data from centralized silos, that help artists & musicians feed their families, and to shine the light of transparency on ossified corrupt systems. It's the promise of blockchain technology, at scale. 
 
@@ -8,7 +6,7 @@ You love to help guide users to success - to work with them on both use case and
 
 ## Responsibilities
 * You will work with many users, from half a day at a time to periodically over a timeline of months. 
-* You will rapidly prototype the front and back ends of web-based blockchain applications, connecting to the decentralized stack (IPDB/BigchainDB, IPFS, Ethereum, etc).
+* You will rapidly prototype the front and back ends of web-based blockchain applications, connecting to the decentralized stack (BigchainDB, IPFS, Ethereum, etc).
 * You will give presentations, and host workshops & hackathons on behalf of BigchainDB.
 * You will iterate with the product team, giving them feedback on user needs.
 * You will be based out of Berlin, but traveling to many European locations and beyond.
@@ -44,7 +42,7 @@ From our very beginnings having a female cofounder: we are an equal opportunity 
 
 **Transit:** We’re spoiled, Berlin has one of the best public transit systems in the world. Our office is near a major connection point of the train (S-Bahn), underground (U-bahn) and trams (no “bahn” for that one, sorry). Berlin also has safe bike lines all throughout the city; you can park your bike in the office (finally: see “Health benefits” ;) )
 
-**Working hours:** The engineering team has a daily standup at 9.30am. In general we try to be around the office until 5pm. But if your 3yo has an event at the local kita, by all means, go! Or if you get on a roll and work late, then please, sleep in. Or if you wish to work from home now and then, that’s ok. We trust you to do your job, and doing your job is about getting the task done, not us looking over your shoulder.
+**Working hours:** In general we try to be around the office until 5pm. But if your 3yo has an event at the local kita, by all means, go! Or if you get on a roll and work late, then please, sleep in. Or if you wish to work from home now and then, that’s ok. We trust you to do your job, and doing your job is about getting the task done, not us looking over your shoulder.
 
 **Time off:** Health first. Without health and happiness, what is left? So, our minimum paid leave per year is 25 days, plus statutory national holidays.
 
@@ -52,7 +50,7 @@ From our very beginnings having a female cofounder: we are an equal opportunity 
 
 **Parenting, Parental Leave:** We love kids! And we recognize the time that parents need for their children's’ well-being, not to mention their own well-being! So we want to give all the space in the world to new parents who wish to spend time with their children: mothers get fully paid maternity leave six weeks prior to birth and eight weeks after. In addition, there are 14 months of 2/3 paid leave, split between the parents according to the parents' choice. And for general parental responsibilities that invariably come up, by all means, go attend to your child. We trust that you are a professional and know how to balance your time.
 
-**Professional and Personal Growth:** BigchainDB is at the epicenter of blockchains + big data + AI, so if you’re not learning, then something’s wrong! We’ll be giving you opportunities to represent us speaking at conferences, hosting hackathons, writing, and more. Finally, we give you an annual €2000 budget that you choose as you wish to spend on books, personal conferences, and other things to grow yourself.
+**Professional and Personal Growth:** BigchainDB is at the epicenter of blockchains + big data + AI, so if you’re not learning, then something’s wrong! We’ll be giving you opportunities to represent us speaking at conferences, hosting hackathons, writing, and more. Finally, we give you an annual budget that you choose as you wish to spend on books, personal conferences, and other things to grow yourself.
 
 **Amazing cool city.** Did we mention, it’s Berlin?
 
