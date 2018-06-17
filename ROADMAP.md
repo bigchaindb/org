@@ -8,8 +8,6 @@ The main change in BigchainDB 2.0 (from 1.3) is that consensus, replication and 
 
 Starting with BigchainDB 2.0, we commit to making it possible to migrate to the next version without loss of data. We will provide documentation and tools to help with migration. This is needed by users who are going into production.
 
-There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organization project board named [BigchainDB 2.0 TODO](https://github.com/orgs/bigchaindb/projects/5)
-
 ### Done in BigchainDB 2.0 Alpha, Released on April 3, 2018
 
 1. Finish HTTP API changes
@@ -44,14 +42,17 @@ There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organiza
 
 ### Goals for the Final Stable Release of BigchainDB 2.0
 
+There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organization project board named [BigchainDB 2.0 TODO](https://github.com/orgs/bigchaindb/projects/5)
+
 1. Publish all testing software and test results, including integration tests, performance tests (benchmarks), and stress tests.
 1. Migration to future versions should be _possible_. See the explanation of what that means in the first paragraph of this section.
 1. Implementation of a [clean shutdown procedure (for BigchainDB)](https://github.com/bigchaindb/bigchaindb/projects/7). This is a blocker for the next item...
 1. BigchainDB and Tendermint packaged as a single service unit. (This is [issue #2238](https://github.com/bigchaindb/bigchaindb/issues/2238).)
 1. The test networks have run without issue for weeks.
+1. Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See https://github.com/tendermint/tendermint/issues/1568
 1. Tendermint 1.0 has been released. One can check that on the [Cosmos Roadmap page](https://cosmos.network/roadmap).
 1. Known causes of failure (e.g. DDoS attacks) are documented.
-1. Updates to the BigchainDB Server configuration settings: remove some settings (keys) and maybe add some Tendermint-related settings. Some of this is done.
+1. Updates to the BigchainDB Server configuration settings: remove some settings (keys) and maybe add some Tendermint-related settings. This should be done once we merge pull request https://github.com/bigchaindb/bigchaindb/pull/2342
 1. Most of the old defunct code is removed.
 
 Other things that might be done for the 2.0 release include:
