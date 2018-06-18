@@ -42,7 +42,7 @@ Starting with BigchainDB 2.0, we commit to making it possible to migrate to the 
 
 ### Goals for the Final Stable Release of BigchainDB 2.0
 
-There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organization project board named [BigchainDB 2.0 TODO](https://github.com/orgs/bigchaindb/projects/5)
+There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organization project board named BigchainDB 2.0 TODO: https://github.com/orgs/bigchaindb/projects/5
 
 1. Publish all testing software and test results, including integration tests, performance tests (benchmarks), and stress tests.
 1. Migration to future versions should be _possible_. See the explanation of what that means in the first paragraph of this section.
