@@ -40,27 +40,37 @@ Starting with BigchainDB 2.0, we commit to making it possible to migrate to the 
 1. Update the Ansible & Vagrant deployment tooling.
 1. Remove some dead code, e.g. the code for RethinkDB support, and the "pipelines" code.
 
+### Done in BigchainDB 2.0 Beta 2, Released on July 16, 2018
+
+1. The test networks have run without issue for weeks.
+1. Performance optimization by fixing the MongoDB index on transaction id.
+1. New BigchainDB configuration settings: Tendermint host and port.
+1. Made changes to BigchainDB to keep up with changes in Tendermint.
+1. Remove a lot of dead code, e.g. the code for voting & blocks.
+
 ### Goals for the Final Stable Release of BigchainDB 2.0
 
-There's a loose collection of BigchainDB 2.0 "TODO" items in the GitHub organization project board named BigchainDB 2.0 TODO: https://github.com/orgs/bigchaindb/projects/5
+There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub organization project board named BigchainDB 2.0 TODO: https://github.com/orgs/bigchaindb/projects/5
 
-1. Have a way to add/remove/update a validator at run-time (maybe by making `bigchaindb upsert-validator` work).
-1. Create and run more integration tests, performance tests (benchmarks), and stress tests. Publish all testing software and test results.
-1. Migration to future versions should be possible: write about _how_ to do that in various cases. See the explanation of what that means in the first paragraph of this section.
+1. Have a way to add/remove/update a validator at run-time (maybe by making `bigchaindb upsert-validator` work). This is [issue #2372](https://github.com/bigchaindb/bigchaindb/issues/2372).
+1. Create and run more performance tests (benchmarks) and stress tests. Publish all testing software and test results.
+1. Migration to future versions should be possible: write about _how_ to do that in various cases. See the explanation of what that means in the first paragraph of this section. See BEP-42, created by [pull request BEPs#56](https://github.com/bigchaindb/BEPs/pull/56). Implement BEP-42 and test that implementation.
 1. Implement a clean shutdown procedure for BigchainDB. This is a blocker for the next item. See https://github.com/bigchaindb/bigchaindb/projects/13
-1. BigchainDB and Tendermint packaged as a single service unit. (This is [issue #2238](https://github.com/bigchaindb/bigchaindb/issues/2238).)
-1. The test networks have run without issue for weeks.
+1. BigchainDB and Tendermint packaged as a single service unit. This is [issue #2238](https://github.com/bigchaindb/bigchaindb/issues/2238).
+   1. A supervisor-based approach for virtual-machine-based deployments.
+   1. A single Docker container containing BigchainDB, Tendermint and MongoDB.
 1. Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See the Cosmos Roadmap page (https://cosmos.network/roadmap) and issue https://github.com/tendermint/tendermint/issues/1568
-1. Document how to run a production validator so that it's protected from denial-of-servce (DoS) attacks and similar issues. See what Tendermint recommends (i.e. "sentry nodes", see issue https://github.com/bigchaindb/bigchaindb/issues/2333).
-1. Finish updates to the BigchainDB Server configuration settings:
-   - pull request https://github.com/bigchaindb/bigchaindb/pull/2342 (new Tendermint host and port settings).
-   - Alberto's pull request to add/document a max-transaction-size configuration setting (using Gunicorn).
-1. Most of the old defunct code is either moved into the new "/tendermint" code, or deleted. Maybe add more comments to help new contributors.
-1. Maybe some performance optimizations.
-1. Implement BEP-14 in the Python and JavaScript drivers.
+1. Add a BigchainDB Server configuration setting for maximum allowed transaction size (using Gunicorn).
+1. Tests cleanup. See [issue #2381](https://github.com/bigchaindb/bigchaindb/issues/2381).
+1. Implement BEP-14 in the Python driver. See [pull request bigchaindb-driver#456](https://github.com/bigchaindb/bigchaindb-driver/pull/456).
+1. Implement BEP-14 in the JavaScript driver.
+1. (Maybe) Add support for MongoDB authentication by username & password.
+1. (Maybe) Change the Dockerfile to use the Alpine (minimal) base image.
 
 ## Some Goals for BigchainDB 2.1 and Beyond
 
+- Document how to run a production validator so that it's protected from denial-of-service (DoS) attacks and similar issues. See what Tendermint recommends (i.e. "sentry nodes", see issue https://github.com/bigchaindb/bigchaindb/issues/2333).
+- Performance optimization by removing unneeded deepcopy operations.
 - Example projects showing how to use BigchainDB with other decentralized systems, especially Ethereum.
 - Refactoring, especially of the transaction-related code.
 - New way to compute the app hash based on the UTXO set, including an efficient way to update the Merkle tree used to compute the app hash from the UTXO set.
