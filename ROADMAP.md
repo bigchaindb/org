@@ -69,18 +69,68 @@ There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub org
 
 ## Some Goals for BigchainDB 2.1 and Beyond
 
-- Document how to run a production validator so that it's protected from denial-of-service (DoS) attacks and similar issues. See what Tendermint recommends (i.e. "sentry nodes", see issue https://github.com/bigchaindb/bigchaindb/issues/2333).
+### Short-Term Goals - Low-Hanging Fruits
+
+#### Priority 1
+
+- Better node deployment and setup process. Analyze and ask users their issues. Define an action plan (BEP).
+- Privacy using encryption, using plugins
+  - node level encryption
+  - peer to peer encryption on same node - needs KMS
+
+#### Priority 2
+
+- Plugin architecture for transaction validation. Refactor the tx code: BEP-9. Generalize the codebase. Dynamic loading of plugins using validator election.
+- Scale-up and scale-out strategy. Define limits - run infra load tests.
+- Propose a new transaction model that:
+  - doesn't use crypto-conditions
+  - supports the Ethereum signature scheme, i.e. secp256k1 keys
+
+#### Priority 3
+
+- Key management support
+
+#### Priority 4
+
+- Ability to delete past transactions. This is an approach to GDPR compliance (e.g. the "right to be forgotten"). If a user has access to keys, let them instigate deletion, otherwise the nodes must vote on deletion. The modified blockchain must still be valid, somehow (when replayed).
+- Scale-up and scale-out strategy. Documentation to educate users why there is a limit. Add another local mempool for capacity (i.e. to moderate the load on the existing mempool).
+- Privacy using zero-knowledge proofs.
+
+### Medium-Term Goals - Journey Projects
+
+#### Priority 1
+
+- Support smart contracts via:
+  - integration with Ethereum
+  - integration with Hyperledger Fabric
+
+#### Priority 2
+
+- Support for light clients.
+
+#### Priority 3
+
+- Asset sharding: give more schema control to users.
+
+### Priority 4
+
+- Asset sharding: Different MongoDB collections for different asset types.
+- System-level and user-level transactions.
+
+### Other Goals for BigchainDB 2.1 and Beyond
+
+- Scalability
+- Native support for CRUD/CRAB.
+- Have only one backend to store all data, i.e. don't store all data in both MongoDB and LevelDB.
+- Document how to run a production validator.
+  - Recommended configuration settings.
+  - Sentry nodes for public networks, to hide the IP addresses of validators; see issue https://github.com/bigchaindb/bigchaindb/issues/2333).
 - Performance optimization by removing unneeded deepcopy operations.
-- Example projects showing how to use BigchainDB with other decentralized systems, especially Ethereum.
-- Refactoring, especially of the transaction-related code.
 - New way to compute the app hash based on the UTXO set, including an efficient way to update the Merkle tree used to compute the app hash from the UTXO set.
-- No more 3scale (currently used by the BigchainDB Testnet)
 - Support hashlock conditions (securely: need to make sure that every transaction is still signed by a client)
 - Support timelock conditions
-- (?) LevelDB vs other backends in Tendermint?
-- Plugins/extensions for specialized use cases
-- Smart contract support. (Not necessarily within BigchainDB; maybe just better documentation about how to integrate with other smart-contract blockchains.)
 - Test what happens when a node runs out of memory or hard drive space. For example, what happens when there's no more space for MongoDB to write a block?
+- Stop using 3scale (currently used by the BigchainDB Testnet).
 
 ## BigchainDB 3.0?
 
