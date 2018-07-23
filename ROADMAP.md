@@ -84,7 +84,7 @@ There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub org
 - Scale-up and scale-out strategy. Define limits - run infra load tests.
 - Propose a new transaction model that:
   - doesn't use crypto-conditions
-  - supports the Ethereum signature scheme, i.e. secp256k1 keys
+  - supports the signature scheme used by Ethereum, i.e. secp256k1 keys
 
 #### Priority 3
 
@@ -100,7 +100,7 @@ There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub org
 
 #### Priority 1
 
-- Support smart contracts via:
+- Support smart contracts (and create new marketing channels) via:
   - integration with Ethereum
   - integration with Hyperledger Fabric
 
@@ -119,13 +119,14 @@ There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub org
 
 ### Other Goals for BigchainDB 2.1 and Beyond
 
+- Integration with Polkadot.
 - Scalability
 - Native support for CRUD/CRAB.
 - Have only one backend to store all data, i.e. don't store all data in both MongoDB and LevelDB.
 - Document how to run a production validator.
   - Recommended configuration settings.
   - Sentry nodes for public networks, to hide the IP addresses of validators; see issue https://github.com/bigchaindb/bigchaindb/issues/2333).
-- Performance optimization by removing unneeded deepcopy operations.
+- More performance optimizations, e.g. by removing unneeded deepcopy operations.
 - New way to compute the app hash based on the UTXO set, including an efficient way to update the Merkle tree used to compute the app hash from the UTXO set.
 - Support hashlock conditions (securely: need to make sure that every transaction is still signed by a client)
 - Support timelock conditions
