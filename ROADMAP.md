@@ -71,6 +71,8 @@ There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub org
 
 ### Short-Term Goals - Low-Hanging Fruits
 
+These are features which are solving a very specific problem. These features, while not scoped, are expected to be small to medium in implementation complexity.
+
 #### Priority 1
 
 - Better node deployment and setup process. Analyze and ask users their issues. Define an action plan (BEP).
@@ -97,6 +99,8 @@ There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub org
 - Privacy using zero-knowledge proofs.
 
 ### Medium-Term Goals - Journey Projects
+
+These are typically a collection of features which are solving a much broader set of problems. These features can result in several [BigchainDB Enhancement Proposals (BEPs)](https://github.com/bigchaindb/BEPs) during scoping and are expected to be medium to large in implementation complexity.
 
 #### Priority 1
 
