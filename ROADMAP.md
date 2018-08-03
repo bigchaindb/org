@@ -76,21 +76,21 @@ These are features which are solving a very specific problem. These features, wh
 #### Priority 1
 
 - Better node deployment and setup process. Analyze and ask users their issues. Define an action plan (BEP).
-- Privacy using encryption, using plugins
+- Data privacy features with (optional) support for encryption using a more modular plugins-based approach.
   - node level encryption
   - peer to peer encryption on same node - needs KMS
 
 #### Priority 2
 
 - Plugin architecture for transaction validation. Refactor the tx code: BEP-9. Generalize the codebase. Dynamic loading of plugins using validator election.
-- Scale-up and scale-out strategy. Define limits - run infra load tests.
+- Defining scale-up and scale-out strategies for nodes in a network expecting larger loads. As a first step, running load tests to find infrastructure limit.
 - Propose a new transaction model that:
   - doesn't use crypto-conditions
   - supports the signature scheme used by Ethereum, i.e. secp256k1 keys
 
 #### Priority 3
 
-- Key management support
+- Support for key management solution for easier access and better integration.
 
 #### Priority 4
 
@@ -114,11 +114,10 @@ These are typically a collection of features which are solving a much broader se
 
 #### Priority 3
 
-- Asset sharding: give more schema control to users.
+- Allow network admins and node admins to define their own MongoDB collections and indexes for better control over schemas.
 
 ### Priority 4
 
-- Asset sharding: Different MongoDB collections for different asset types.
 - System-level and user-level transactions.
 
 ### Other Goals for BigchainDB 2.1 and Beyond
