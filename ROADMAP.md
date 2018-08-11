@@ -59,6 +59,11 @@ Fixed a bug in transaction validation.
 1. Some tests cleanup.
 1. Implement BEP-14 in the Python driver.
 
+### Done in BigchainDB 2.0 Beta 5, Released on August 1, 2018
+
+1. Updated the supported Tendermint version to Tendermint 0.22.8.
+1. Fixed a bug.
+
 ### Goals for the Final Stable Release of BigchainDB 2.0
 
 There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub organization project board named BigchainDB 2.0 TODO: https://github.com/orgs/bigchaindb/projects/5
@@ -66,11 +71,11 @@ There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub org
 1. Have a way to add/remove/update a validator at run-time (maybe by making `bigchaindb upsert-validator` work). This is [issue #2372](https://github.com/bigchaindb/bigchaindb/issues/2372).
 1. Create and run more performance tests (benchmarks) and stress tests. Publish all testing software and test results.
 1. Migration to future versions should be possible: write about _how_ to do that in various cases. See the explanation of what that means in the first paragraph of this section. See [BEP-42](https://github.com/bigchaindb/BEPs/tree/master/42). Implement BEP-42 and test that implementation.
-1. A single Docker container containing BigchainDB, Tendermint and MongoDB. See https://github.com/bigchaindb/bigchaindb/pull/2424
-1. Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See the Cosmos Roadmap page (https://cosmos.network/roadmap) and issue https://github.com/tendermint/tendermint/issues/1568
-1. Add a BigchainDB Server configuration setting for maximum allowed transaction size (using Gunicorn).
+1. A single Docker container containing BigchainDB, Tendermint and MongoDB. See https://github.com/bigchaindb/bigchaindb/pull/2424 --- merged on August 2, so will be in next release.
+1. Ongoing: Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See the Cosmos Roadmap page (https://cosmos.network/roadmap) and issue https://github.com/tendermint/tendermint/issues/1568
+1. (Maybe) Add a BigchainDB Server configuration setting for maximum allowed transaction size (using Gunicorn). See https://github.com/bigchaindb/bigchaindb/pull/2387
 1. Tests cleanup. See [issue #2381](https://github.com/bigchaindb/bigchaindb/issues/2381).
-1. Implement BEP-14 in the JavaScript driver.
+1. (Maybe) Implement BEP-14 in the JavaScript driver.
 1. (Maybe) Add support for MongoDB authentication by username & password.
 1. (Maybe) Change the Dockerfile to use the Alpine (minimal) base image.
 
