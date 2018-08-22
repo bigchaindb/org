@@ -75,7 +75,7 @@ There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub org
 1. Ongoing: Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See [the tendermint/tendermint "launch" milestone](https://github.com/tendermint/tendermint/milestone/14) and issue https://github.com/tendermint/tendermint/issues/1568
 1. (Maybe) Add a BigchainDB Server configuration setting for maximum allowed transaction size. See https://github.com/bigchaindb/bigchaindb/pull/2387
 1. Tests cleanup. See [issue #2381](https://github.com/bigchaindb/bigchaindb/issues/2381).
-1. (Maybe) Implement BEP-14 in the JavaScript driver.
+1. (Maybe) Implement BEP-14 in the JavaScript driver. See https://github.com/bigchaindb/js-bigchaindb-driver/pull/239 
 1. (Maybe) Add support for MongoDB authentication by username & password.
 1. (Maybe) Change the Dockerfile to use the Alpine (minimal) base image.
 
