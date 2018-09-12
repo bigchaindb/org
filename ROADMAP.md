@@ -73,7 +73,6 @@ There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub org
 1. Migration to future versions should be possible: write about _how_ to do that in various cases. See the explanation of what that means in the first paragraph of this section. See [BEP-42](https://github.com/bigchaindb/BEPs/tree/master/42). Implement one of the options in BEP-42 and test that implementation.
 1. A single Docker container containing BigchainDB, Tendermint and MongoDB. See https://github.com/bigchaindb/bigchaindb/pull/2424 --- merged on August 2, so will be in next release.
 1. Ongoing: Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See [the tendermint/tendermint "launch" milestone](https://github.com/tendermint/tendermint/milestone/14) and issue https://github.com/tendermint/tendermint/issues/1568
-1. (Maybe) Add a BigchainDB Server configuration setting for maximum allowed transaction size. See https://github.com/bigchaindb/bigchaindb/pull/2387
 1. Tests cleanup. See [issue #2381](https://github.com/bigchaindb/bigchaindb/issues/2381).
 1. (Maybe) Implement BEP-14 in the JavaScript driver. See https://github.com/bigchaindb/js-bigchaindb-driver/pull/239 
 1. (Maybe) Add support for MongoDB authentication by username & password.
@@ -142,6 +141,7 @@ These are typically a collection of features which are solving a much broader se
   - Recommended configuration settings.
   - Sentry nodes for public networks, to hide the IP addresses of validators; see issue https://github.com/bigchaindb/bigchaindb/issues/2333).
 - More performance optimizations, e.g. by removing unneeded deepcopy operations.
+- New network-wide consistent max-transaction-size parameter. See https://github.com/bigchaindb/BEPs/issues/83
 - New way to compute the app hash based on the UTXO set, including an efficient way to update the Merkle tree used to compute the app hash from the UTXO set.
 - Support hashlock conditions (securely: need to make sure that every transaction is still signed by a client)
 - Support timelock conditions
