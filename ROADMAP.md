@@ -64,18 +64,21 @@ Fixed a bug in transaction validation.
 1. Updated the supported Tendermint version to Tendermint 0.22.8.
 1. Fixed a bug.
 
+### Done in BigchainDB 2.0 Beta 6, Released on September 17, 2018
+
+1. Have a way to add/remove/update a validator at run-time.
+1. Create and run more performance tests (benchmarks) and stress tests. Publish all testing software and test results.
+1. A single Docker container containing BigchainDB, Tendermint and MongoDB.
+1. Tests cleanup.
+1. Implement BEP-14 in the JavaScript driver.
+1. Add support for MongoDB authentication by username & password.
+
 ### Goals for the Final Stable Release of BigchainDB 2.0
 
 There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub organization project board named BigchainDB 2.0 TODO: https://github.com/orgs/bigchaindb/projects/5
 
-1. Have a way to add/remove/update a validator at run-time (i.e. modify `bigchaindb upsert-validator` according to [BEP-21](https://github.com/bigchaindb/BEPs/tree/master/21)). This is [issue #2372](https://github.com/bigchaindb/bigchaindb/issues/2372).
-1. Create and run more performance tests (benchmarks) and stress tests. Publish all testing software and test results.
 1. Migration to future versions should be possible: write about _how_ to do that in various cases. See the explanation of what that means in the first paragraph of this section. See [BEP-42](https://github.com/bigchaindb/BEPs/tree/master/42). Implement one of the options in BEP-42 and test that implementation.
-1. A single Docker container containing BigchainDB, Tendermint and MongoDB. See https://github.com/bigchaindb/bigchaindb/pull/2424 --- merged on August 2, so will be in next release.
-1. Ongoing: Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See [the tendermint/tendermint "launch" milestone](https://github.com/tendermint/tendermint/milestone/14) and issue https://github.com/tendermint/tendermint/issues/1568
-1. Tests cleanup. See [issue #2381](https://github.com/bigchaindb/bigchaindb/issues/2381).
-1. (Maybe) Implement BEP-14 in the JavaScript driver. See https://github.com/bigchaindb/js-bigchaindb-driver/pull/239 
-1. (Maybe) Add support for MongoDB authentication by username & password.
+1. Ongoing: Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See [the tendermint/tendermint "launch" milestone](https://github.com/tendermint/tendermint/milestone/14)
 1. (Maybe) Change the Dockerfile to use the Alpine (minimal) base image.
 
 ## Some Goals for BigchainDB 2.1 and Beyond
@@ -86,7 +89,7 @@ These are features which are solving a very specific problem. These features, wh
 
 #### Priority 1
 
-- Better node deployment and setup process. Analyze and ask users their issues. Define an action plan (BEP).
+- Better node deployment and setup process.
 - Data privacy features with (optional) support for encryption using a more modular plugins-based approach.
   - node level encryption
   - peer to peer encryption on same node - needs KMS
@@ -116,8 +119,8 @@ These are typically a collection of features which are solving a much broader se
 #### Priority 1
 
 - Support smart contracts (and create new marketing channels) via:
-  - integration with Ethereum
-  - integration with Hyperledger Fabric
+  - integration with Ethereum: See [BEP-15](https://github.com/bigchaindb/BEPs/tree/master/15)
+  - integration with Hyperledger Fabric. Version 1 of this was done in August 2018; see [our blog post about that](https://blog.bigchaindb.com/bigchaindb-hyperledger-fabric-integration-4c65e5811671)
 
 #### Priority 2
 
