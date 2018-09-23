@@ -4,7 +4,7 @@ BigchainDB is a leader in the blockchain space. We're building a decentralized d
 If you are someone that loves to build things and cares deeply about the future of the internet and of society, we want to hear from you.
 
 ## Responsibilities
-* You will research, design, and implement decentralized database software & networks ([BigchainDB](https://www.bigchaindb.com) & [IPDB](https://ipdb.io/)), and data marketplaces ([Ocean Protocol](https://oceanprotocol.com/)) 
+* You will research, design, and implement decentralized database software & networks ([BigchainDB](https://www.bigchaindb.com)) and data marketplaces ([Ocean Protocol](https://oceanprotocol.com/)) 
 * You will co-plan and co-design the product with your team in an agile, open-source development process
 
 ## Skills and Experience 
