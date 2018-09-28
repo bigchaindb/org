@@ -73,13 +73,15 @@ Fixed a bug in transaction validation.
 1. Implement BEP-14 in the JavaScript driver.
 1. Add support for MongoDB authentication by username & password.
 
+### Done in BigchainDB 2.0 Beta 7, Released on September 28, 2018
+
+Implement a migration strategy to migrate a running network to use a new and incompatible version of Tendermint. We implemented the third scenario described in [BEP-42](https://github.com/bigchaindb/BEPs/tree/master/42).
+
 ### Goals for the Final Stable Release of BigchainDB 2.0
 
 There's a loose collection of some BigchainDB 2.0 "TODO" items in the GitHub organization project board named BigchainDB 2.0 TODO: https://github.com/orgs/bigchaindb/projects/5
 
-1. Migration to future versions should be possible: write about _how_ to do that in various cases. See the explanation of what that means in the first paragraph of this section. See [BEP-42](https://github.com/bigchaindb/BEPs/tree/master/42). Implement one of the options in BEP-42 and test that implementation.
-1. Ongoing: Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See [the tendermint/tendermint "launch" milestone](https://github.com/tendermint/tendermint/milestone/14)
-1. (Maybe) Change the Dockerfile to use the Alpine (minimal) base image.
+Ongoing: Make changes to keep up with changes in Tendermint before the release of Tendermint 1.0. See [the tendermint/tendermint "launch" milestone](https://github.com/tendermint/tendermint/milestone/14)
 
 ## Some Goals for BigchainDB 2.1 and Beyond
 
@@ -89,7 +91,7 @@ These are features which are solving a very specific problem. These features, wh
 
 #### Priority 1
 
-- Better node deployment and setup process.
+- Simpler node deployment and setup process. This is done. See the docs about the [simple deployment template](http://docs.bigchaindb.com/projects/server/en/latest/simple-deployment-template/index.html).
 - Data privacy features with (optional) support for encryption using a more modular plugins-based approach.
   - node level encryption
   - peer to peer encryption on same node - needs KMS
@@ -140,16 +142,13 @@ These are typically a collection of features which are solving a much broader se
 - Scalability
 - Native support for CRUD/CRAB.
 - Have only one backend to store all data, i.e. don't store all data in both MongoDB and LevelDB.
-- Document how to run a production validator.
-  - Recommended configuration settings.
-  - Sentry nodes for public networks, to hide the IP addresses of validators; see issue https://github.com/bigchaindb/bigchaindb/issues/2333).
 - More performance optimizations, e.g. by removing unneeded deepcopy operations.
 - New network-wide consistent max-transaction-size parameter. See https://github.com/bigchaindb/BEPs/issues/83
 - New way to compute the app hash based on the UTXO set, including an efficient way to update the Merkle tree used to compute the app hash from the UTXO set.
 - Support hashlock conditions (securely: need to make sure that every transaction is still signed by a client)
 - Support timelock conditions
 - Test what happens when a node runs out of memory or hard drive space. For example, what happens when there's no more space for MongoDB to write a block?
-- Stop using 3scale (currently used by the BigchainDB Testnet).
+- Change the Dockerfile to use the Alpine (minimal) base image.
 
 ## BigchainDB 3.0?
 
