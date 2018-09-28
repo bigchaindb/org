@@ -1,7 +1,3 @@
 # Jobs at BigchainDB
 
-We're hiring! Here are our current openings at BigchainDB:
-
-- [Decentralized Systems Engineer](engjob.md)
-- [Blockchain Consultant](aejob.md)
-
+We're not hiring anyone to work on the BigchainDB software at this time, but you might want to check out [Ocean Protocol](https://oceanprotocol.com/) and other companies associated with [IPDB](https://ipdb.io/).
