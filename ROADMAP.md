@@ -4,7 +4,7 @@ Below is a sketch of some of the things we plan to do in upcoming releases of Bi
 
 ## BigchainDB 2.0
 
-The main change in BigchainDB 2.0 (from 1.3) is that consensus, replication and sync are done using Tendermint. That means that [BigchainDB 2.0 is Byzantine Fault Tolerant (BFT)](https://blog.bigchaindb.com/bigchaindb-2-0-is-byzantine-fault-tolerant-5ffdac96bc44).
+The main change in BigchainDB 2.0 (from 1.3) is that consensus, replication, and sync are done using [Tendermint](https://github.com/tendermint/tendermint). That means that [BigchainDB 2.0 is Byzantine Fault Tolerant (BFT)](https://blog.bigchaindb.com/bigchaindb-2-0-is-byzantine-fault-tolerant-5ffdac96bc44).
 
 Starting with BigchainDB 2.0, we commit to making it possible to migrate to the next version without loss of data. We will provide documentation and tools to help with migration. This is needed by users who are going into production.
 
